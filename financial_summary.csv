@@ -1,0 +1,358 @@
+Is_Early_Dropout,Discount_Type,Avg_Pending,Avg_Discount_Pct,Count
+Early,Allumni Siblings (30),28940.61111111111,NA,18
+Early,"Allumni Siblings (30),Learn While You Earn (10)",0,NA,1
+Early,Allumni Siblings (50),14002,NA,10
+Early,"Allumni Siblings (50),Financial Assitance (5)",0,NA,1
+Early,Conversion Discount (30),0,NA,1
+Early,Conversion Discount (57),14479,NA,1
+Early,Financial Assitance (10),45988.28571428572,NA,7
+Early,"Financial Assitance (10),GIFT Employee (50)",0,NA,1
+Early,"Financial Assitance (10),Kin ship (30)",24160,NA,1
+Early,"Financial Assitance (10),Kin ship (30),Learn While You Earn (10)",95620,NA,1
+Early,"Financial Assitance (10),Kin ship (50)",12570,NA,1
+Early,"Financial Assitance (10),Learn While You Earn (10),Merit Basis (15)",34840.5,NA,2
+Early,"Financial Assitance (10),Learn While You Earn (10),Merit Basis (25)",13150.5,NA,2
+Early,"Financial Assitance (10),Learn While You Earn (15),Merit Basis (15)",0,NA,1
+Early,"Financial Assitance (10),Merit Basis (15)",46181.666666666664,NA,3
+Early,"Financial Assitance (10),Merit Basis (19),Merit Basis (25)",0,NA,1
+Early,"Financial Assitance (10),Merit Basis (20)",94689,NA,1
+Early,"Financial Assitance (10),Merit Basis (25)",93028.5,NA,2
+Early,"Financial Assitance (10),Merit Basis (30)",25629,NA,2
+Early,"Financial Assitance (10),Merit Basis (40)",68676.66666666667,NA,3
+Early,"Financial Assitance (10),Merit Basis (45)",17267,NA,1
+Early,"Financial Assitance (10),Merit Basis (60)",41817,NA,1
+Early,"Financial Assitance (10),Merit Till 15-10-2021 (40)",50626,NA,2
+Early,"Financial Assitance (10),Merit Till 15-10-2021 (45)",60963,NA,1
+Early,"Financial Assitance (10),Merit Till 15-10-2021 (60)",36584,NA,1
+Early,Financial Assitance (15),92599.4,NA,5
+Early,"Financial Assitance (15),GIFT College Student (50)",16948,NA,2
+Early,"Financial Assitance (15),GIFT University Alumni (20)",0,NA,1
+Early,"Financial Assitance (15),Learn While You Earn (10),Merit Basis (15)",0,NA,1
+Early,"Financial Assitance (15),Learn While You Earn (15),Merit Basis (15)",0,NA,1
+Early,"Financial Assitance (15),Learn While You Earn (15),Merit Basis (40)",19195,NA,1
+Early,"Financial Assitance (15),Learn While You Earn (30)",0,NA,1
+Early,"Financial Assitance (15),Merit Basis (15)",89868.33333333333,NA,6
+Early,"Financial Assitance (15),Merit Basis (20)",64170.333333333336,NA,3
+Early,"Financial Assitance (15),Merit Basis (25)",90008.6,NA,5
+Early,"Financial Assitance (15),Merit Basis (40)",75367,NA,2
+Early,"Financial Assitance (15),Merit Basis (45)",0,NA,1
+Early,"Financial Assitance (15),Merit Till 15-10-2021 (40)",37385,NA,1
+Early,"Financial Assitance (15),PR Discount (5)",128592,NA,1
+Early,Financial Assitance (20),134092,NA,1
+Early,"Financial Assitance (20),GIFT University Alumni (25)",84625,NA,1
+Early,"Financial Assitance (20),Learn While You Earn (15),Merit Basis (25)",45160,NA,1
+Early,"Financial Assitance (20),Learn While You Earn (20)",55676,NA,1
+Early,"Financial Assitance (20),Learn While You Earn (20),Merit Basis (15)",51606,NA,1
+Early,"Financial Assitance (20),Learn While You Earn (20),Merit Basis (40)",8314,NA,1
+Early,"Financial Assitance (20),Learn While You Earn (50)",35876,NA,1
+Early,"Financial Assitance (20),Merit Basis (15)",63686,NA,4
+Early,"Financial Assitance (20),Merit Basis (20)",2535.3333333333335,NA,3
+Early,"Financial Assitance (20),Merit Basis (25)",95977.33333333333,NA,3
+Early,"Financial Assitance (20),Merit Basis (30)",61731.333333333336,NA,3
+Early,"Financial Assitance (20),Merit Basis (40)",73197,NA,4
+Early,"Financial Assitance (20),Merit Basis (45)",56565.5,NA,2
+Early,Financial Assitance (25),81453.33333333333,NA,3
+Early,"Financial Assitance (25),Learn While You Earn (15),Merit Basis (25)",72290,NA,1
+Early,"Financial Assitance (25),Merit Basis (15)",76901,NA,2
+Early,"Financial Assitance (25),Merit Basis (25)",80037.14285714286,NA,7
+Early,"Financial Assitance (25),Merit Basis (30)",22636,NA,3
+Early,"Financial Assitance (25),Merit Basis (40)",41220.666666666664,NA,6
+Early,"Financial Assitance (25),Merit Till 15-10-2021 (60)",35792,NA,2
+Early,Financial Assitance (30),89419,NA,2
+Early,"Financial Assitance (30),GIFT University Alumni (20)",55857,NA,1
+Early,"Financial Assitance (30),Kin ship (30)",67360,NA,2
+Early,"Financial Assitance (30),Learn While You Earn (10)",34272,NA,1
+Early,"Financial Assitance (30),Learn While You Earn (10),Merit Basis (20)",10820,NA,1
+Early,"Financial Assitance (30),Learn While You Earn (15)",0,NA,1
+Early,"Financial Assitance (30),Learn While You Earn (15),Merit Basis (20)",0,NA,1
+Early,"Financial Assitance (30),Learn While You Earn (20)",21702.5,NA,2
+Early,"Financial Assitance (30),Learn While You Earn (30),Merit Basis (15)",41500,NA,1
+Early,"Financial Assitance (30),Merit Basis (15)",59720,NA,1
+Early,"Financial Assitance (30),Merit Basis (20)",23946.2,NA,5
+Early,"Financial Assitance (30),Merit Basis (25)",62226.444444444445,NA,9
+Early,"Financial Assitance (30),Merit Basis (30)",10765,NA,3
+Early,"Financial Assitance (30),Merit Basis (40)",32557.6,NA,5
+Early,"Financial Assitance (30),Merit Basis (45)",39658.5,NA,2
+Early,"Financial Assitance (30),Merit Basis (60)",21530,NA,1
+Early,"Financial Assitance (30),Merit Till 15-10-2021 (20)",0,NA,1
+Early,"Financial Assitance (30),Merit Till 15-10-2021 (30)",62090,NA,1
+Early,Financial Assitance (35),85540.66666666667,NA,3
+Early,"Financial Assitance (35),Financial Assitance (55),Merit Till 15-10-2021 (20)",47672,NA,1
+Early,"Financial Assitance (35),Learn While You Earn (25),Merit Basis (25)",42236,NA,1
+Early,"Financial Assitance (35),Merit Basis (25)",50540,NA,4
+Early,"Financial Assitance (35),Merit Basis (40)",50050.5,NA,2
+Early,Financial Assitance (40),48710,NA,2
+Early,"Financial Assitance (40),Merit Basis (10),Merit Basis (20)",25279,NA,1
+Early,"Financial Assitance (40),Merit Basis (25)",53441,NA,5
+Early,"Financial Assitance (40),Merit Basis (40)",48424,NA,1
+Early,"Financial Assitance (40),Merit Basis (45)",59940,NA,1
+Early,"Financial Assitance (40),Merit Basis (60)",17000,NA,1
+Early,"Financial Assitance (45),Merit Basis (25)",18955,NA,2
+Early,"Financial Assitance (45),Merit Till 15-10-2021 (20)",42956,NA,1
+Early,Financial Assitance (47),0,NA,1
+Early,"Financial Assitance (5),Merit Basis (15)",106240,NA,1
+Early,"Financial Assitance (5),Merit Basis (20)",0,NA,1
+Early,"Financial Assitance (5),Merit Basis (45)",57935.5,NA,4
+Early,"Financial Assitance (5),Merit Till 15-10-2021 (40)",46040,NA,1
+Early,"Financial Assitance (5),Merit Till 15-10-2021 (45)",73362,NA,1
+Early,Financial Assitance (50),92667.5,NA,2
+Early,"Financial Assitance (50),GIFT University Alumni (20)",0,NA,1
+Early,"Financial Assitance (50),Merit Basis (15)",45640,NA,1
+Early,"Financial Assitance (55),Merit Basis (30)",23795,NA,1
+Early,"Financial Assitance (55),Merit Till 15-10-2021 (20)",35540,NA,1
+Early,"Financial Assitance (60),Merit Basis (15)",28310,NA,1
+Early,Financial Assitance (75),19955,NA,1
+Early,GIFT College Student (50),15600.034482758621,NA,29
+Early,"GIFT College Student (50),Learn While You Earn (10)",122480,NA,1
+Early,"GIFT College Student (50),Learn While You Earn (15)",0,NA,1
+Early,"GIFT College Student (50),Learn While You Earn (20)",0,NA,1
+Early,"GIFT College Student (50),Learn While You Earn (5)",27672,NA,1
+Early,GIFT College Student (Gap) (40),26631.5,NA,2
+Early,GIFT University AD Degree Holder (25),0,NA,1
+Early,"GIFT University AD Degree Holder (25),Merit Basis (15)",0,NA,1
+Early,GIFT University Alumni (20),48233.71428571428,NA,7
+Early,"GIFT University Alumni (20),Learn While You Earn (15)",113441,NA,1
+Early,"GIFT University Alumni (20),Learn While You Earn (40)",3274,NA,1
+Early,GIFT University Alumni (25),73166.0625,NA,16
+Early,GIFT University Alumni (50),31905,NA,3
+Early,Kin ship (15),80592,NA,1
+Early,Kin ship (20),0,NA,1
+Early,Kin ship (30),39454.21621621621,NA,37
+Early,"Kin ship (30),Learn While You Earn (10)",0,NA,1
+Early,"Kin ship (30),Learn While You Earn (20)",0,NA,1
+Early,"Kin ship (30),Learn While You Earn (30)",27240,NA,1
+Early,"Kin ship (30),Learn While You Earn (50)",0,NA,1
+Early,"Kin ship (30),Orphans (20)",46140,NA,1
+Early,"Kin ship (30),Orphans (30)",36912,NA,1
+Early,Kin ship (50),27235.16,NA,25
+Early,"Kin ship (50),Merit Basis (20)",63130,NA,1
+Early,"Kin ship (50),Orphans (15)",0,NA,1
+Early,Learn While You Earn (10),51983.142857142855,NA,14
+Early,"Learn While You Earn (10),Merit Basis (15)",47870.333333333336,NA,3
+Early,"Learn While You Earn (10),Merit Basis (25)",42371,NA,2
+Early,Learn While You Earn (15),80228.7,NA,10
+Early,"Learn While You Earn (15),Merit Basis (15)",91362,NA,1
+Early,"Learn While You Earn (15),Merit Basis (8),Merit Basis (15)",42960,NA,1
+Early,Learn While You Earn (20),68831.5,NA,8
+Early,"Learn While You Earn (20),Merit Basis (10)",71109,NA,1
+Early,"Learn While You Earn (20),Merit Basis (15)",36083,NA,1
+Early,Learn While You Earn (25),49730.333333333336,NA,15
+Early,"Learn While You Earn (25),Merit Basis (25)",23910,NA,1
+Early,Learn While You Earn (30),56351.875,NA,16
+Early,"Learn While You Earn (30),Merit Basis (15)",42119.666666666664,NA,3
+Early,Learn While You Earn (35),52329.333333333336,NA,3
+Early,"Learn While You Earn (35),Merit Basis (15)",22120,NA,1
+Early,Learn While You Earn (40),40038.78571428572,NA,14
+Early,"Learn While You Earn (40),Merit Basis (15)",59248,NA,1
+Early,Learn While You Earn (45),11916,NA,5
+Early,Learn While You Earn (50),41409.375,NA,8
+Early,Learn While You Earn (55),53767,NA,1
+Early,Learn While You Earn (60),53991,NA,2
+Early,Merit Basis (10),48146.55172413793,NA,29
+Early,"Merit Basis (10),Merit Basis (15)",0,NA,1
+Early,"Merit Basis (10),Merit Basis (15),Merit Basis (20)",26570,NA,1
+Early,Merit Basis (100),9166.666666666666,NA,9
+Early,"Merit Basis (11),Merit Basis (15)",50045.5,NA,2
+Early,"Merit Basis (11),Merit Basis (15),PR Discount (10)",20590,NA,1
+Early,Merit Basis (15),60368.350253807104,NA,197
+Early,"Merit Basis (15),Merit Basis (20)",77198,NA,2
+Early,"Merit Basis (15),Merit Basis (20),Student Loan  (30)",30928,NA,1
+Early,"Merit Basis (15),On Spot Discount (10)",55920,NA,2
+Early,"Merit Basis (15),Orphans (30)",58516.5,NA,2
+Early,"Merit Basis (15),Orphans (35)",25031.666666666668,NA,3
+Early,"Merit Basis (15),Orphans (50)",36737,NA,1
+Early,"Merit Basis (15),Orphans (55)",30996,NA,2
+Early,"Merit Basis (15),PR Discount (15)",0,NA,1
+Early,"Merit Basis (19),Merit Basis (25)",0,NA,1
+Early,"Merit Basis (19),Merit Basis (25),Orphans (15)",41166,NA,1
+Early,Merit Basis (20),41520.306666666664,NA,75
+Early,"Merit Basis (20),Orphans (70)",6246,NA,1
+Early,"Merit Basis (23),Merit Basis (30)",19569,NA,2
+Early,"Merit Basis (23),Merit Basis (45)",16322,NA,2
+Early,Merit Basis (25),50386.291666666664,NA,96
+Early,"Merit Basis (25),Merit Basis (50)",58740,NA,1
+Early,"Merit Basis (25),On Spot Discount (10)",30935.75,NA,4
+Early,"Merit Basis (25),Orphans (10)",46410,NA,1
+Early,"Merit Basis (25),Orphans (25)",94600,NA,1
+Early,"Merit Basis (25),Orphans (30)",47030,NA,2
+Early,"Merit Basis (25),Orphans (35)",54932,NA,2
+Early,"Merit Basis (25),Orphans (40)",36735,NA,1
+Early,Merit Basis (30),32172.033898305086,NA,59
+Early,"Merit Basis (30),Merit Basis (40)",50731,NA,1
+Early,"Merit Basis (30),Orphans (40)",8030,NA,1
+Early,"Merit Basis (34),Merit Basis (45)",0,NA,1
+Early,"Merit Basis (34),Merit Basis (45),Orphans (35)",0,NA,1
+Early,Merit Basis (40),39971.72,NA,50
+Early,"Merit Basis (40),Orphans (35)",35020,NA,2
+Early,Merit Basis (45),32405.16,NA,25
+Early,Merit Basis (50),0,NA,1
+Early,Merit Basis (60),17303.222222222223,NA,18
+Early,"Merit Basis (8),Merit Basis (10)",55210,NA,1
+Early,"Merit Basis (8),Merit Basis (11),Merit Basis (15)",133884,NA,1
+Early,"Merit Basis (8),Merit Basis (15)",123264,NA,3
+Early,Merit Till 15-10-2021 (100),13600,NA,5
+Early,Merit Till 15-10-2021 (20),53205.125,NA,8
+Early,"Merit Till 15-10-2021 (20),Orphans (20)",33250,NA,1
+Early,Merit Till 15-10-2021 (40),24461,NA,2
+Early,Merit Till 15-10-2021 (60),49682,NA,1
+Early,On Spot Discount (10),80908.33333333333,NA,6
+Early,On Spot Discount (50),23925,NA,2
+Early,Orphans (15),72390,NA,1
+Early,Orphans (30),36918.666666666664,NA,3
+Early,Orphans (40),15630.5,NA,2
+Early,Orphans (45),15367,NA,2
+Early,Orphans (50),74960,NA,2
+Early,Orphans (55),63759.5,NA,2
+Early,Orphans (60),11256,NA,1
+Early,PR Discount (15),118581,NA,1
+Early,PR Discount (16),72576,NA,1
+Early,PR Discount (5),0,NA,1
+Early,NA,0,NA,901
+Late,Allumni Siblings (30),13646.555555555555,NA,9
+Late,"Allumni Siblings (30),Financial Assitance (25)",35800,NA,1
+Late,"Allumni Siblings (30),Learn While You Earn (25)",57817,NA,1
+Late,Allumni Siblings (50),23380.25,NA,4
+Late,"Conversion Discount (8),Kin ship (50)",32272,NA,1
+Late,"Financial Assitance (10),GIFT College Student (50)",14875,NA,1
+Late,"Financial Assitance (10),Learn While You Earn (10),Merit Basis (15)",49412,NA,1
+Late,"Financial Assitance (10),Merit Basis (25)",59092.5,NA,2
+Late,"Financial Assitance (10),Merit Basis (60)",0,NA,1
+Late,Financial Assitance (100),0,NA,1
+Late,"Financial Assitance (15),Learn While You Earn (10),Merit Basis (15)",18955,NA,1
+Late,"Financial Assitance (15),Learn While You Earn (15),Merit Basis (15)",0,NA,2
+Late,"Financial Assitance (15),Learn While You Earn (20)",30077,NA,1
+Late,"Financial Assitance (15),Learn While You Earn (25),Merit Basis (40)",63720,NA,1
+Late,"Financial Assitance (15),Merit Basis (11),Merit Basis (15)",155655,NA,1
+Late,"Financial Assitance (15),Merit Basis (23),Merit Basis (30)",0,NA,1
+Late,"Financial Assitance (15),Merit Basis (25)",29081,NA,2
+Late,"Financial Assitance (15),Merit Basis (30)",62800,NA,1
+Late,"Financial Assitance (20),Kin ship (50)",38324,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (15)",47680,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (15),Merit Basis (15)",9000,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (15),Merit Basis (8),Merit Basis (11),Merit Basis (15)",0,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (20),Merit Basis (11),Merit Basis (15)",0,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (20),Merit Basis (15),Merit Basis (20)",0,NA,1
+Late,"Financial Assitance (20),Learn While You Earn (30)",0,NA,1
+Late,"Financial Assitance (20),Merit Basis (20)",110000,NA,1
+Late,"Financial Assitance (20),Merit Basis (30)",121950,NA,1
+Late,"Financial Assitance (20),Merit Till 15-10-2021 (45)",0,NA,1
+Late,"Financial Assitance (25),Learn While You Earn (15),Merit Basis (8),Merit Basis (15)",88345,NA,1
+Late,"Financial Assitance (25),Learn While You Earn (25)",0,NA,3
+Late,"Financial Assitance (25),Merit Basis (10),Merit Basis (20)",85625,NA,1
+Late,"Financial Assitance (25),Merit Basis (11),Merit Basis (15)",15693,NA,1
+Late,"Financial Assitance (25),Merit Basis (15)",248600,NA,1
+Late,"Financial Assitance (25),Merit Basis (30)",0,NA,1
+Late,Financial Assitance (30),80080,NA,1
+Late,"Financial Assitance (30),Learn While You Earn (15),Merit Basis (23),Merit Basis (30)",14644,NA,1
+Late,"Financial Assitance (30),Learn While You Earn (20),Merit Basis (15)",0,NA,1
+Late,"Financial Assitance (30),Learn While You Earn (30),Merit Basis (10),Merit Basis (20)",27808,NA,1
+Late,"Financial Assitance (30),Merit Basis (15)",0,NA,1
+Late,"Financial Assitance (30),Merit Basis (15),Merit Basis (20)",119000.5,NA,2
+Late,"Financial Assitance (30),Merit Basis (20)",29650,NA,1
+Late,"Financial Assitance (30),Merit Basis (25)",0,NA,1
+Late,"Financial Assitance (35),Kin ship (50),Orphans (35)",34065,NA,1
+Late,"Financial Assitance (35),Merit Basis (40)",36001,NA,2
+Late,"Financial Assitance (35),Merit Basis (45)",0,NA,1
+Late,Financial Assitance (40),0,NA,1
+Late,"Financial Assitance (45),Merit Basis (30)",10500,NA,1
+Late,Financial Assitance (5),43600,NA,1
+Late,"Financial Assitance (5),Merit Basis (30)",43429,NA,1
+Late,Financial Assitance (50),128010,NA,1
+Late,"Financial Assitance (50),Learn While You Earn (50),Merit Basis (25)",0,NA,1
+Late,"Financial Assitance (50),Merit Till 15-10-2021 (20)",22660,NA,1
+Late,GIFT College Student (50),35759.8064516129,NA,31
+Late,"GIFT College Student (50),Learn While You Earn (10)",13876,NA,1
+Late,GIFT College Student (Gap) (40),50680,NA,1
+Late,GIFT University Alumni (20),49564,NA,3
+Late,GIFT University Alumni (25),88290.5,NA,6
+Late,Kin ship (10),27783.5,NA,2
+Late,Kin ship (20),81772,NA,1
+Late,Kin ship (30),27931.14285714286,NA,35
+Late,"Kin ship (30),Learn While You Earn (10)",27833,NA,4
+Late,"Kin ship (30),Learn While You Earn (30)",43360,NA,1
+Late,"Kin ship (30),Learn While You Earn (35)",6552,NA,1
+Late,"Kin ship (30),Orphans (30)",76040,NA,1
+Late,Kin ship (50),18163.777777777777,NA,18
+Late,"Kin ship (50),Learn While You Earn (5)",12800,NA,1
+Late,"Kin ship (50),Orphans (15)",43988,NA,1
+Late,"Kin ship (50),Orphans (30),Student Loan  (18),Student Loan  (20)",0,NA,1
+Late,Learn While You Earn (10),12086.666666666666,NA,6
+Late,"Learn While You Earn (10),Merit Basis (15)",0,NA,2
+Late,"Learn While You Earn (10),Merit Basis (25)",0,NA,1
+Late,"Learn While You Earn (10),PR Discount (20)",79532,NA,1
+Late,Learn While You Earn (15),36420.375,NA,8
+Late,"Learn While You Earn (15),Learn While You Earn (45)",29461,NA,1
+Late,"Learn While You Earn (15),Merit Basis (15)",46250,NA,1
+Late,"Learn While You Earn (15),Merit Basis (30)",55200,NA,1
+Late,Learn While You Earn (20),40518.666666666664,NA,9
+Late,"Learn While You Earn (20),Merit Basis (15)",0,NA,1
+Late,"Learn While You Earn (20),Merit Basis (30)",64096.666666666664,NA,3
+Late,Learn While You Earn (25),29388.333333333332,NA,3
+Late,"Learn While You Earn (25),Merit Basis (15)",0,NA,1
+Late,"Learn While You Earn (25),Merit Basis (25)",0,NA,1
+Late,"Learn While You Earn (25),Merit Basis (30),Orphans (20)",0,NA,1
+Late,Learn While You Earn (30),40852.71428571428,NA,7
+Late,Learn While You Earn (35),142365,NA,1
+Late,Learn While You Earn (40),33390,NA,6
+Late,"Learn While You Earn (40),Learn While You Earn (60)",0,NA,1
+Late,Learn While You Earn (45),17216,NA,2
+Late,Learn While You Earn (50),12576,NA,5
+Late,Learn While You Earn (55),40779,NA,1
+Late,Learn While You Earn (65),51380,NA,1
+Late,Merit Basis (10),46701.666666666664,NA,6
+Late,"Merit Basis (10),Merit Basis (15),Merit Basis (20)",124300,NA,1
+Late,"Merit Basis (10),Merit Basis (15),Merit Basis (20),Orphans (30)",48993,NA,1
+Late,"Merit Basis (10),Merit Basis (20)",17073.333333333332,NA,3
+Late,Merit Basis (100),0,NA,1
+Late,"Merit Basis (11),Merit Basis (15)",60854.22222222222,NA,9
+Late,"Merit Basis (13),Merit Basis (25)",0,NA,1
+Late,Merit Basis (15),36013.32558139535,NA,43
+Late,"Merit Basis (15),Merit Basis (20)",35016.77777777778,NA,9
+Late,"Merit Basis (15),Merit Basis (30)",18908,NA,3
+Late,"Merit Basis (15),Orphans (15)",0,NA,1
+Late,"Merit Basis (15),Orphans (35)",0,NA,1
+Late,"Merit Basis (15),Orphans (45)",0,NA,1
+Late,"Merit Basis (15),Orphans (50)",0,NA,1
+Late,"Merit Basis (15),Orphans (55)",72100,NA,1
+Late,"Merit Basis (19),Merit Basis (25)",74382.4,NA,5
+Late,Merit Basis (20),40836.05,NA,40
+Late,"Merit Basis (20),Merit Basis (40)",0,NA,1
+Late,"Merit Basis (23),Merit Basis (30)",48225,NA,4
+Late,"Merit Basis (23),Merit Basis (34),Merit Basis (45)",162800,NA,1
+Late,"Merit Basis (23),Merit Basis (45)",62387.5,NA,2
+Late,Merit Basis (25),37871.22580645161,NA,31
+Late,"Merit Basis (25),Orphans (10)",0,NA,1
+Late,"Merit Basis (25),Orphans (45)",0,NA,1
+Late,"Merit Basis (25),Orphans (50),PR Discount (10)",0,NA,1
+Late,Merit Basis (30),32552.68,NA,25
+Late,"Merit Basis (30),Merit Basis (40)",44544,NA,1
+Late,"Merit Basis (30),Merit Basis (60)",162800,NA,1
+Late,"Merit Basis (30),Orphans (60)",9340,NA,1
+Late,"Merit Basis (34),Merit Basis (45)",66760,NA,1
+Late,"Merit Basis (34),Merit Basis (45),Student Loan  (48)",0,NA,1
+Late,Merit Basis (40),39017.294117647056,NA,17
+Late,Merit Basis (45),25784.133333333335,NA,15
+Late,"Merit Basis (5),Merit Basis (8),Merit Basis (10)",9000,NA,1
+Late,Merit Basis (60),0,NA,2
+Late,"Merit Basis (8),Merit Basis (10)",76388,NA,4
+Late,"Merit Basis (8),Merit Basis (11),Merit Basis (15)",103142.25,NA,4
+Late,"Merit Basis (8),Merit Basis (15)",0,NA,1
+Late,"Merit Till 15-10-2021 (10),Merit Till 15-10-2021 (15),Merit Till 15-10-2021 (20)",0,NA,1
+Late,Merit Till 15-10-2021 (100),128120,NA,1
+Late,Merit Till 15-10-2021 (15),82449,NA,1
+Late,"Merit Till 15-10-2021 (15),Merit Till 15-10-2021 (20)",108736,NA,1
+Late,Merit Till 15-10-2021 (20),35656,NA,5
+Late,"Merit Till 15-10-2021 (20),Orphans (30)",56212,NA,1
+Late,Merit Till 15-10-2021 (40),31348.333333333332,NA,3
+Late,"Merit Till 15-10-2021 (45),Merit Till 15-10-2021 (60)",61442,NA,1
+Late,Merit Till 15-10-2021 (60),13208,NA,3
+Late,On Spot Discount (50),43155,NA,1
+Late,Orphans (30),0,NA,3
+Late,Orphans (35),28356,NA,1
+Late,Orphans (40),57215,NA,2
+Late,Orphans (50),31120,NA,1
+Late,Orphans (65),0,NA,1
+Late,Orphans (70),0,NA,1
+Late,PR Discount (25),0,NA,1
+Late,PR Discount (50),76500,NA,1
+Late,NA,0,NA,320

@@ -1,0 +1,643 @@
+Program,Gender,Joining_Semester,Is_Early_Dropout,Count,Avg_Age,Avg_Previous_Percent,Avg_CGPA,Avg_Present_Pct,Avg_Pending_Overall,Common_Occupation,Common_Discount_Type
+BS Business Administration,Male,Fall 2021,Early,74,19.76086634579785,61.16216216216216,1.1397297297297297,59.36486486486486,21420.391891891893,Businessman,Merit Basis (20)
+BS Computer Science,Male,Fall 2021,Early,56,19.091634050880625,63.60017857142857,0.6885714285714286,54.892857142857146,22642.803571428572,Labour,Merit Basis (30)
+BS Computer Science,Male,Fall 2024,Early,49,18.92145797910451,63.59183673469388,0,48.795918367346935,43451.204081632655,Businessman,Merit Basis (15)
+BS Computer Science,Male,Fall 2022,Early,42,19.32570123939987,65.45238095238095,0,56.30952380952381,40476.619047619046,Farmer,Merit Basis (15)
+BS Computer Science,Male,Fall 2023,Early,40,19.274800134740623,67.275,0,45,55338.4,Abroad,Merit Basis (15)
+BS Business Administration,Male,Fall 2021,Late,39,19.124973656480506,57.38461538461539,2.718717948717949,58.526315789473685,30539.871794871793,Businessman,GIFT College Student (50)
+BS Business Administration,Male,Fall 2022,Early,38,19.50144196106705,59.3421052631579,0,53.578947368421055,35628.39473684211,Business Man,Merit Basis (15)
+BS English (After 14 years edu),Female,Fall 2022,Late,34,22.09951651893634,57.294117647058826,0,85.05882352941177,10527.235294117647,Labour,Merit Basis (25)
+BS English,Female,Fall 2023,Early,33,19.569490548875233,62.39393939393939,0,33.84848484848485,20239.848484848484,Farmer,Merit Basis (40)
+BS Computer Science,Male,Spring 2024,Early,32,19.742998633879782,62.8125,0,62.4375,59069.78125,Businessman,Merit Basis (15)
+BS English,Male,Fall 2021,Early,31,19.92319929297393,61.354838709677416,0.7564516129032258,57.12903225806452,20586.645161290322,Farmer,GIFT College Student (50)
+BS English,Female,Fall 2021,Late,29,19.313273500236182,64.6896551724138,3.186896551724138,74.96551724137932,7895.137931034483,Businessman,Merit Basis (20)
+BS Clinical Psychology - Main Block,Female,Fall 2021,Early,27,19.20730593607306,69.25925925925925,1.3225925925925925,56.18518518518518,16429.703703703704,Businessman,Merit Basis (20)
+BS Software Engineering,Male,Fall 2021,Early,25,19.275945205479452,67.92,1.0192,55.28,34560.4,Farmer,Merit Basis (30)
+BS Data Science,Male,Fall 2024,Early,24,18.937318162537117,72.5,0,42.375,49752.333333333336,Business,Merit Basis (15)
+BS English,Female,Fall 2021,Early,23,19.036212030970816,65.78260869565217,0.9239130434782609,54.21739130434783,10293.869565217392,Business Man,Kin ship (50)
+BS Political Science,Male,Fall 2021,Early,23,19.829541393686718,56.17391304347826,1.2782608695652173,65.8695652173913,0,Farmer,NA
+BS Computer Science,Male,Fall 2023,Late,21,19.06969583551663,61.095238095238095,0,57,26184.238095238095,Business Man,Kin ship (30)
+BS English,Female,Fall 2022,Early,21,19.20208741030659,66.04761904761905,0,49.80952380952381,17926.47619047619,Driver,Merit Basis (15)
+BS Business Administration,Male,Fall 2023,Late,20,19.753347181675274,57.95,0,53.4,22111.05,Business,Merit Basis (15)
+BS Mass Communication and Media Studies,Male,Fall 2022,Early,20,19.32972602739726,58.75,0,69.1,12541.4,Business,GIFT College Student (50)
+BS Software Engineering,Male,Fall 2023,Early,20,19.423299273897747,61.45,0,36.95,40549.8,Late,Merit Basis (15)
+ADCP,Female,Fall 2022,Early,19,25.471232876712328,23.717894736842105,0,72,0,Business Man,Financial Assitance (47)
+BS Computer Science,Male,Fall 2021,Late,19,19.17721701514059,72.42105263157895,2.681578947368421,58.36842105263158,45330.47368421053,Business,Merit Basis (30)
+BS Business Economics,Male,Fall 2021,Early,18,19.246727549467277,56.72222222222222,1.12,58.77777777777778,0,Farmer,NA
+BS Software Engineering,Male,Fall 2022,Early,18,18.979299847792998,66.72222222222223,0,56.72222222222222,30655.88888888889,Business Man,Kin ship (30)
+BS Business Economics,Male,Fall 2021,Late,16,20.13236301369863,57.0625,2.85625,60.875,0,Business Man,NA
+BS Clinical Psychology - Main Block,Female,Fall 2022,Early,16,18.775,71.25,0,62.125,24002.875,Businessman,Merit Basis (15)
+BS Computer Science,Female,Fall 2022,Early,16,18.658732876712328,74.5,0,45.625,56119.75,Labour,Merit Basis (15)
+BS Home Economics Food and Nutrition at Main Block (Only for Females),Female,Fall 2021,Early,16,18.669520547945204,69,0.63375,34.625,11087.5,Business Man,Merit Basis (20)
+BS Computer Science,Female,Fall 2023,Early,15,18.774647802979263,70.26666666666667,0,44.93333333333333,36410.26666666667,Businessman,Merit Basis (15)
+BS Computer Science,Male,Fall 2022,Late,15,19.724018264840183,65.53333333333333,0,53.733333333333334,63381.666666666664,Labour,Kin ship (30)
+BS English,Male,Fall 2022,Early,15,19.975342465753425,58.8,0,56.86666666666667,20017.066666666666,Labour,Learn While You Earn (25)
+B.Sc. Electrical Engineering,Male,Fall 2022,Early,14,27.870450097847357,72.5,0,37.357142857142854,33494.42857142857,Farmer,Merit Basis (30)
+BS Clinical Psychology - Main Block,Female,Fall 2021,Late,14,20.76536203522505,61.142857142857146,2.83,61.785714285714285,21307.785714285714,Business,Merit Basis (20)
+BS Computer Science,Female,Fall 2024,Early,14,19.516254424518515,69.07142857142857,0,24.214285714285715,92457.14285714286,Driver,Merit Basis (15)
+BS Mass Communication and Media Studies,Male,Fall 2021,Early,14,19.858512720156554,57.92857142857143,0.5650000000000001,54.07142857142857,10785.857142857143,Businessman,Merit Basis (20)
+BCom (Hons),Male,Fall 2021,Early,13,19.509799789251844,60.76923076923077,1.23,54.38461538461539,24486.384615384617,Businessman,Merit Basis (30)
+BS Business Administration,Male,Spring 2024,Early,13,19.522068095838588,56.30769230769231,0,55.53846153846154,19120.53846153846,Businessman,Allumni Siblings (30)
+BS English,Male,Fall 2021,Late,13,18.92750263435195,61,2.9,71.16666666666667,30941.69230769231,Farmer,"Financial Assitance (20),Learn While You Earn (15)"
+BS Software Engineering,Female,Fall 2021,Early,13,18.653740779768178,69.61538461538461,0.2676923076923077,44.07692307692308,48540.153846153844,Car Driver,Merit Basis (20)
+BS Software Engineering,Male,Fall 2021,Late,13,19.07945205479452,65.46153846153847,2.43,67.84615384615384,36820.769230769234,Businessman,Merit Basis (20)
+BS Software Engineering,Male,Fall 2024,Early,13,19.037383037652518,69.15384615384616,0,46,54978.769230769234,Labour,Merit Basis (15)
+BS Accounting and Finance,Male,Fall 2021,Early,12,19.108675799086758,60.75,1.0116666666666667,59.083333333333336,38602.083333333336,Business,Merit Basis (20)
+BS Business Administration,Male,Fall 2022,Late,12,19.884018264840183,57.75,0,73.18181818181819,27016.166666666668,Businessman,Merit Basis (15)
+BS Business Administration,Male,Fall 2023,Early,12,19.612227087855878,60.083333333333336,0,49.75,29437.666666666668,Business man,Merit Basis (15)
+BS Business Intelligence,Male,Fall 2024,Early,12,18.149189061057463,65.08333333333333,0,48.833333333333336,37903.333333333336,Farmer,"Financial Assitance (10),Merit Basis (25)"
+BS Clinical Psychology - Main Block (After 14 years edu),Female,Fall 2022,Late,12,21.766438356164382,55.416666666666664,0,85.58333333333333,0,Labour,Merit Basis (15)
+BS Data Science,Male,Fall 2023,Early,12,19.50228684781795,65.58333333333333,0,45.333333333333336,56132.666666666664,Farmer,Merit Basis (15)
+BS Education - Main Block,Male,Fall 2021,Early,12,20.232191780821918,58.5,0.3675,49.75,0,Farmer,NA
+BS English,Female,Fall 2022,Late,12,19.53310502283105,63.083333333333336,0,80.45454545454545,13256.166666666666,Abroad,GIFT College Student (50)
+BS English,Male,Spring 2023,Early,12,21.105479452054794,62.333333333333336,0,53.166666666666664,13835.333333333334,Businessman,Merit Basis (15)
+BS Software Engineering,Male,Fall 2023,Late,12,19.78062729246201,63.5,0,70.08333333333333,19810.25,Business,"Financial Assitance (10),Learn While You Earn (10),Merit Basis (15)"
+ADCP,Female,Spring 2022,Early,11,23.508592777085926,18.425454545454546,0,83.81818181818181,0,Businessman,NA
+BS Accounting and Finance,Male,Fall 2023,Early,11,19.220066145397382,56.09090909090909,0,28.363636363636363,34087.27272727273,Labour,Merit Basis (15)
+BS International Relations,Male,Fall 2022,Early,11,19.77011207970112,66.36363636363636,0,55.72727272727273,15963,Farmer,Merit Basis (40)
+BS International Relations,Male,Spring 2024,Early,11,20.637853949329358,60.54545454545455,0,59.45454545454545,20625.090909090908,Farmer,Merit Basis (15)
+BS Mass Communication and Media Studies,Male,Fall 2022,Late,11,19.348194271481944,55.18181818181818,0,69.4,4228.181818181818,Business,Allumni Siblings (30)
+B Des (Hons) Graphic Design,Female,Fall 2022,Late,10,19.37698630136986,66.2,0,62.4,24795,Businessman,GIFT College Student (50)
+B Des (Hons) Textile and Fashion,Female,Fall 2021,Late,10,19.170684931506848,67.4,3.37,81.33333333333333,3207.2,Labour,Merit Basis (15)
+BS Accounting and Finance,Male,Fall 2021,Late,10,19.666849315068493,61.2,2.834,73.66666666666667,24398.9,Businessman,Allumni Siblings (50)
+BS Data Science,Male,Fall 2021,Early,10,18.803835616438356,68.8,0.54,44.1,20525.3,Labour,"Financial Assitance (15),GIFT College Student (50)"
+BS Data Science,Male,Fall 2022,Early,10,18.56,67.4,0,33.7,55781.2,Auto Mechanic,Merit Basis (25)
+BS English,Female,Fall 2023,Late,10,18.455640392244927,60.4,0,62.4,21011.2,Abroad,Learn While You Earn (15)
+BS English,Male,Spring 2024,Early,10,20.472131147540985,57.9,0,40.8,13390.2,Agriculture,Merit Basis (15)
+BS International Relations,Male,Fall 2021,Early,10,20.253698630136988,56.9,1.8760000000000001,63.4,3867.2,Farmer,Merit Basis (30)
+BS Mass Communication and Media Studies,Female,Fall 2021,Late,10,20.447397260273974,64.9,3.145,60.333333333333336,24394.2,Businessman,"Merit Basis (15),Merit Basis (20)"
+BS Accounting and Finance,Male,Fall 2022,Early,9,19.53150684931507,61.111111111111114,0,73.11111111111111,40325.444444444445,Business Man,Kin ship (30)
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2021,Early,9,18.674885844748857,69.77777777777777,0.1388888888888889,38.55555555555556,13373.333333333334,Business Man,Merit Basis (20)
+BS Computer Science,Male,Spring 2022,Early,9,20.03257229832572,58.888888888888886,0,58,10730,Agriculture,Allumni Siblings (50)
+BS Computer Science,Male,Spring 2023,Early,9,20.41704718417047,63.666666666666664,0,41.77777777777778,51044,Businessman,Merit Basis (25)
+BS Data Science,Female,Fall 2021,Early,9,18.787214611872145,71.11111111111111,0.528888888888889,51.77777777777778,32204.777777777777,Shopkeeper,"Financial Assitance (10),Kin ship (50)"
+BS Data Science,Female,Fall 2023,Early,9,18.35959444735551,65.33333333333333,0,27.555555555555557,50659.11111111111,Businessman,Financial Assitance (15)
+BS International Relations,Male,Fall 2021,Late,9,18.64840182648402,56.22222222222222,2.591111111111111,76.25,4957.777777777777,Business,Financial Assitance (40)
+BS International Relations,Male,Fall 2023,Early,9,20.04283753773985,59.666666666666664,0,56.888888888888886,37307.22222222222,Businessman,"Learn While You Earn (10),Merit Basis (15)"
+BS Mass Communication and Media Studies,Male,Fall 2021,Late,9,19.80669710806697,59.44444444444444,2.6977777777777776,59.666666666666664,15549.555555555555,Business Man,Merit Basis (20)
+ADCP,Female,Fall 2023,Late,8,24.29703851336178,36.50875,0,78,0,Business Man,NA
+B Des (Hons) Textile and Fashion,Female,Fall 2022,Late,8,18.81027397260274,67,0,77.83333333333333,51915,Businessman,Merit Basis (20)
+B Des (Hons) Textile and Fashion,Male,Fall 2022,Early,8,19.813356164383563,62,0,48,16845.5,Businessman,Merit Basis (15)
+BCom (Hons) (After 14 years edu),Female,Fall 2022,Late,8,22.71815068493151,54.875,0,82.75,819,Banker,Kin ship (30)
+BS Accounting and Finance,Female,Fall 2023,Early,8,21.08384609626469,58,0,45,48990,Business,"Financial Assitance (15),Merit Basis (15)"
+BS Business Administration,Female,Fall 2021,Early,8,19.022602739726025,66.625,0.885,46.625,26202.5,Army Retired,"Financial Assitance (30),Merit Basis (30)"
+BS Business Economics,Female,Fall 2021,Early,8,19.40753424657534,65.75,1.21,48.375,0,Driver,NA
+BS Data Science,Female,Fall 2023,Late,8,18.99974081143798,73.25,0,69.375,27102,Driver,"Financial Assitance (35),Merit Basis (40)"
+BS English,Female,Fall 2024,Early,8,18.933583164907553,71.875,0,32.75,21846.75,Labour,"Financial Assitance (15),Learn While You Earn (30)"
+BS English,Female,Spring 2024,Early,8,20.80874316939891,55.25,0,61,15477.75,Farmer,Merit Basis (15)
+BS Islamic Studies,Female,Fall 2021,Late,8,21.36849315068493,62.375,3.18125,78.125,8326.875,Businessman,"Merit Basis (10),Merit Basis (15),Merit Basis (20),Orphans (30)"
+BS Islamic Studies (After 14 years edu),Female,Fall 2022,Late,8,22.098287671232878,52,0,82,0,Businessman,Kin ship (30)
+BS Mathematics (After 14 years edu),Female,Fall 2022,Late,8,20.045890410958904,61.375,0,87.625,0,Business Man,Merit Basis (25)
+BS Political Science,Male,Fall 2023,Early,8,20.71998371884123,69.5,0,42.5,13679.5,Farmer,Merit Basis (25)
+B Des (Hons) Graphic Design,Male,Fall 2021,Early,7,18.745205479452054,67.42857142857143,1.3014285714285714,64.85714285714286,32106.285714285714,Businessman,Merit Basis (20)
+B Des (Hons) Textile and Fashion,Female,Fall 2024,Early,7,18.906676077122967,59.714285714285715,0,30.571428571428573,38493.142857142855,abroad,Merit Basis (15)
+B Des (Hons) Textile and Fashion,Male,Fall 2021,Late,7,20.056360078277887,60.857142857142854,2.8057142857142856,65.57142857142857,33749.42857142857,Business,Merit Basis (20)
+BS Business Intelligence,Female,Fall 2024,Early,7,18.186933367553173,66.57142857142857,0,36.42857142857143,45451.42857142857,Businessman,"Financial Assitance (40),Merit Basis (25)"
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2022,Early,7,19.644618395303326,65.57142857142857,0,62,10941.57142857143,Businessman,"Financial Assitance (20),Learn While You Earn (20)"
+BS Education - Main Block,Male,Fall 2022,Early,7,21.271624266144816,52.142857142857146,0,40.142857142857146,0,Farmer,NA
+BS English (After 14 years edu),Female,Fall 2022,Early,7,22.984344422700588,60.42857142857143,0,46.142857142857146,12992.42857142857,Army officer,Merit Basis (15)
+BS Home Economics Interior Design at Main Block (Only for Females),Female,Fall 2021,Late,7,18.846183953033268,67.14285714285714,2.605714285714286,55.142857142857146,9189.57142857143,Business,Kin ship (50)
+BS Mass Communication and Media Studies,Female,Fall 2022,Early,7,18.78825831702544,64.14285714285714,0,88,7105.142857142857,Business Man,GIFT College Student (50)
+BS Mass Communication and Media Studies,Male,Spring 2022,Early,7,20.585518590998042,64.85714285714286,0,70.85714285714286,16918.285714285714,Businessman,Merit Basis (20)
+BS Mass Communication and Media Studies,Male,Spring 2023,Early,7,20.76829745596869,64.42857142857143,0,19.857142857142858,13526.285714285714,Businessman,Merit Basis (15)
+BS Political Science,Male,Fall 2022,Early,7,22.128375733855187,59.42857142857143,0,41.42857142857143,0,Businessman,NA
+BS Software Engineering,Female,Fall 2023,Early,7,18.757233753595756,76.71428571428571,0,43.142857142857146,74720.42857142857,Advocate,Merit Basis (25)
+MBA for Business Graduates (Morning),Male,Fall 2022,Early,7,24.203522504892366,2.8014285714285716,0,39.142857142857146,13795.714285714286,Businessman,Merit Basis (10)
+MBA for Business Graduates (Morning),Male,Fall 2023,Late,7,24.286366601435095,2.7928571428571427,0,84.71428571428571,56000.857142857145,Farmer,GIFT University Alumni (25)
+MBA for Business Graduates (Morning),Male,Fall 2024,Early,7,23.556642391966893,2.8057142857142856,0,59.142857142857146,51142.857142857145,Banker,GIFT University Alumni (25)
+MSc Accounting and Finance,Female,Fall 2021,Early,7,21.054794520547947,54.794285714285714,0.6857142857142857,46.142857142857146,38101,Businessman,Merit Basis (15)
+AD Accounting and Finance,Male,Fall 2024,Early,6,20.28405319759463,55.333333333333336,0,55.5,22337.5,Business,Merit Basis (15)
+AD Computer Science,Male,Fall 2023,Early,6,20.76293509993263,62.833333333333336,0,31,9333.333333333334,Business,Merit Basis (25)
+B Des (Hons) Graphic Design,Female,Fall 2021,Early,6,18.85753424657534,72,0,20.833333333333332,28012,Medical Rap,"Financial Assitance (25),Merit Till 15-10-2021 (60)"
+B Des (Hons) Graphic Design,Female,Fall 2021,Late,6,18.842009132420092,68.83333333333333,2.8183333333333334,68.75,9009.666666666666,Businessman,Kin ship (50)
+B Des (Hons) Graphic Design,Female,Fall 2022,Early,6,19.932876712328767,72.5,0,89.2,9664.166666666666,Businessman,"Financial Assitance (25),Merit Basis (40)"
+B Des (Hons) Graphic Design,Male,Fall 2021,Late,6,20.626027397260273,51.833333333333336,2.5183333333333335,71.16666666666667,20910.833333333332,Labour,"Financial Assitance (50),Merit Till 15-10-2021 (20)"
+B Des (Hons) Graphic Design,Male,Fall 2022,Early,6,19.18036529680365,69.33333333333333,0,50.833333333333336,51038.666666666664,Advocate,"Financial Assitance (25),Merit Basis (25)"
+B Des (Hons) Textile and Fashion,Male,Fall 2021,Early,6,19.872602739726027,68.5,1.8383333333333334,77.5,17314,Business,GIFT College Student (50)
+B Des (Hons) Textile and Fashion,Male,Spring 2024,Early,6,20.510473588342442,56.166666666666664,0,54,38080.833333333336,Business,Learn While You Earn (15)
+BCom (Hons),Male,Fall 2022,Early,6,19.964383561643835,60.333333333333336,0,66.33333333333333,6281.666666666667,Business,Learn While You Earn (40)
+BS Business Administration,Female,Fall 2021,Late,6,20.085388127853882,70,3.533333333333333,68.66666666666667,12355.166666666666,Business Man,Merit Basis (20)
+BS Business Administration,Female,Fall 2022,Late,6,19.12876712328767,59.666666666666664,0,68.6,32003.166666666668,business man,Merit Basis (15)
+BS Business Economics,Male,Fall 2022,Early,6,19.477625570776254,60.166666666666664,0,50.833333333333336,0,Business Man,NA
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2023,Early,6,19.330825660603338,61.166666666666664,0,53.333333333333336,20860,Clinic,Merit Basis (15)
+BS Clinical Psychology - Main Block,Female,Fall 2023,Early,6,18.227523267709657,66.66666666666667,0,38.333333333333336,48435.333333333336,Businessman,Financial Assitance (10)
+BS Clinical Psychology - Main Block,Female,Fall 2024,Early,6,18.64387304438955,75.83333333333333,0,44.666666666666664,35097.333333333336,Business,Merit Basis (25)
+BS Computer Science,Female,Spring 2024,Early,6,20.48224043715847,73.83333333333333,0,70,29829.333333333332,Farmer,"Financial Assitance (20),Merit Basis (40)"
+BS English,Male,Fall 2024,Early,6,19.438512114180206,54.833333333333336,0,47,10017.166666666666,Agriculture,Merit Basis (15)
+BS English,Male,Spring 2022,Early,6,20.380365296803653,57.833333333333336,0,53,0,Business man,"Merit Basis (23),Merit Basis (45)"
+BS Mass Communication and Media Studies,Male,Fall 2023,Early,6,20.475655612945083,52.666666666666664,0,34.5,12440.666666666666,Abroad,Learn While You Earn (15)
+BS Mass Communication and Media Studies,Male,Spring 2022,Late,6,20.41917808219178,62.5,0,62.5,4431,Businessman,Allumni Siblings (50)
+BS Mathematics,Male,Fall 2021,Early,6,19.11187214611872,70,1.0216666666666667,67.66666666666667,14759,Business,Merit Basis (20)
+BS Political Science,Male,Fall 2024,Early,6,19.66019038351174,50.833333333333336,0,64.16666666666667,0,Farmer,Merit Basis (15)
+BS Software Engineering,Female,Fall 2023,Late,6,19.024870873568382,67.33333333333333,0,63.666666666666664,40433.166666666664,Army Man,"Financial Assitance (15),Merit Basis (11),Merit Basis (15)"
+MA English Language and Literature,Male,Fall 2021,Early,6,25.40365296803653,56,1.0366666666666666,56.666666666666664,14071.333333333334,Business Man,Merit Basis (20)
+MS Clinical Psychology,Female,Fall 2024,Early,6,23.915928088429773,12.898333333333333,0,37.5,48526.666666666664,Business,Merit Basis (15)
+AD Mass Communication and Media Studies,Male,Spring 2024,Early,5,23.543169398907104,55,0,60.4,22523.8,Farmer,"Merit Basis (11),Merit Basis (15)"
+B Des (Hons) Textile and Fashion,Female,Fall 2021,Early,5,20.39068493150685,51.2,1.9220000000000002,40.8,5332.6,Business,Allumni Siblings (50)
+B Des (Hons) Textile and Fashion,Female,Fall 2022,Early,5,19.233424657534247,66.4,0,57,16034.4,Businessman,Merit Basis (15)
+BS Accounting and Finance,Male,Fall 2023,Late,5,18.997020735084963,60.4,0,54.8,30749.2,Business Man,Merit Basis (25)
+BS Accounting and Finance,Male,Fall 2024,Early,5,18.721167752077253,56.2,0,58,13090.2,Cab Driver,"Financial Assitance (15),Merit Basis (25)"
+BS Business Administration,Male,Fall 2024,Early,5,19.468618908600945,54.2,0,64.2,33245,Army Retried,Learn While You Earn (25)
+BS Business Administration,Male,Spring 2022,Early,5,19.58082191780822,65.4,0,46.2,19631.2,Business,Merit Basis (20)
+BS Business Economics,Male,Spring 2022,Early,5,21.163835616438355,58.2,0,58.4,0,General Store,NA
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2021,Late,5,18.48986301369863,53.4,2.568,78.2,12346.6,Businessman,"Conversion Discount (8),Kin ship (50)"
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2022,Late,5,19.013698630136986,65.6,0,82,11416.6,Businessman,Kin ship (30)
+BS Clinical Psychology - Main Block,Female,Fall 2023,Late,5,19.077734860393743,74.6,0,75.2,56115.8,Businessman,Merit Basis (40)
+BS Computer Science,Female,Fall 2021,Early,5,18.004931506849314,74,1.056,56.2,9412,Farmer,"Financial Assitance (15),Merit Basis (45)"
+BS Computer Science,Female,Spring 2022,Early,5,18.584109589041095,67.2,0,40.2,13226.4,Civil Engineer,Merit Basis (20)
+BS Computer Science,Male,Spring 2023,Late,5,19.168767123287672,63,0,51.4,45500,Labour,Merit Basis (15)
+BS Education - Girls Block (Only for Females),Female,Fall 2021,Early,5,18.21643835616438,59,0.33599999999999997,33.4,0,Farmer,NA
+BS Education - Main Block,Female,Fall 2021,Early,5,20.756712328767126,69,1.142,44.2,2271.4,Contractor,Merit Basis (45)
+BS English,Male,Fall 2022,Late,5,20.06849315068493,55.4,0,51.8,39686,Farming,Kin ship (30)
+BS Home Economics (Interior Design) - Girls Block (Only for Females),Female,Fall 2021,Early,5,21.844931506849314,59.4,0.886,55.8,3725.4,Business,Merit Basis (30)
+BS Home Economics (Interior Design) - Girls Block (Only for Females),Female,Fall 2021,Late,5,19.140821917808218,74,3.152,59.5,10790.4,Businessman,Merit Basis (45)
+BS Home Economics Interior Design at Main Block (Only for Females),Female,Fall 2021,Early,5,19.277808219178084,63.4,0,24,3348,Businessman,Kin ship (50)
+BS Islamic Studies,Female,Fall 2021,Early,5,18.33808219178082,70,1.256,64,0,Businessman,GIFT College Student (50)
+BS Mass Communication and Media Studies,Female,Fall 2022,Late,5,18.888219178082192,63.6,0,67.2,43891.6,Business Man,Merit Basis (15)
+BS Mass Communication and Media Studies,Female,Fall 2023,Early,5,19.68468747660753,56.4,0,73.8,9329.6,Abroad,Learn While You Earn (10)
+BS Mass Communication and Media Studies,Female,Fall 2024,Early,5,19.477818699004416,65.6,0,54,9950.6,Business man,Merit Basis (15)
+BS Political Science,Male,Spring 2022,Early,5,22.393972602739726,60.8,0,34.8,5348,Business man,Merit Basis (30)
+BS Psychology - Main Block,Female,Fall 2021,Early,5,19.28054794520548,60,0.3,39.4,6801,Labour,"Financial Assitance (30),Learn While You Earn (20)"
+BS Psychology - Main Block,Female,Fall 2022,Early,5,18.96109589041096,59.4,0,41.2,13651.2,Labor,"Financial Assitance (30),Merit Basis (25)"
+BS Psychology - Main Block,Male,Fall 2022,Early,5,20.686027397260272,77.2,0,29.6,19693.4,Business,Merit Basis (15)
+BS Psychology - Main Block (After 14 years edu),Female,Fall 2022,Late,5,21.678356164383562,54.6,0,80.2,0,Agriculture,Kin ship (30)
+M Phil Applied Linguistics,Female,Fall 2023,Late,5,27.244931506849316,3.52,0,92.8,0,Businessman,NA
+MBA for Business Graduates (Morning),Female,Fall 2021,Early,5,24.984109589041097,2.9819999999999998,1.99,54,18785.2,Business Man,GIFT University Alumni (20)
+AD Mass Communication and Media Studies,Male,Fall 2024,Early,4,19.781042742720263,55.5,0,65.75,21142.75,Businessman,Merit Basis (15)
+ADCP,Female,Fall 2023,Early,4,23.83576989295606,17.015,0,28.25,0,Businessman,NA
+ADCP,Female,Spring 2024,Early,4,27.21516393442623,15.705,0,62.5,0,Farming,NA
+B Des (Hons) Textile and Fashion,Female,Fall 2023,Late,4,19.65694475634404,63.5,0,84.5,36362.5,Assistant Director,Merit Basis (15)
+B Des (Hons) Textile and Fashion,Female,Spring 2022,Early,4,19.966438356164385,63.5,0,56.75,50984.5,Farmer,Kin ship (50)
+B Des (Hons) Textile and Fashion,Female,Spring 2022,Late,4,19.44041095890411,62.5,0,46.666666666666664,60245.75,Driver,GIFT College Student (50)
+B Des (Hons) Textile and Fashion,Female,Spring 2023,Late,4,20.86849315068493,53.75,0,77.25,13891.75,Business man,Kin ship (10)
+BCom (Hons),Male,Fall 2023,Early,4,20.06027397260274,56,0,60.75,0,Businessman,NA
+BCom (Hons),Male,Spring 2024,Early,4,21.604508196721312,52.25,0,40,15244.75,Businessman,Merit Basis (15)
+BS Accounting and Finance,Male,Fall 2022,Late,4,19.63082191780822,60.25,0,47.75,55599.75,Driver,GIFT College Student (50)
+BS Accounting and Finance (After 14 years edu),Female,Fall 2022,Late,4,22.565753424657533,41.125,0,82,0,Governmenrt Employ,"Financial Assitance (15),Learn While You Earn (15),Merit Basis (15)"
+BS Business Administration,Male,Spring 2023,Late,4,21.14178082191781,66,0,65,15937.5,Architect,Merit Basis (25)
+BS Clinical Psychology - Main Block,Female,Spring 2022,Early,4,19.435616438356163,60.75,0,45,12634.75,Businessman,Conversion Discount (30)
+BS Clinical Psychology - Main Block,Male,Fall 2021,Late,4,19.882876712328766,52.5,2.375,57.75,49130.75,Business,Kin ship (50)
+BS Computer Science,Female,Fall 2021,Late,4,19.122602739726027,74,2.9375,79.25,37650,Business Man,"Financial Assitance (15),Merit Basis (30)"
+BS Computer Science,Female,Fall 2023,Late,4,18.414089752226964,75,0,67.75,9217.5,Govt. Employee,"Financial Assitance (10),Merit Basis (25)"
+BS Data Science,Female,Fall 2024,Early,4,18.368721461187214,75.5,0,39.25,87166,Accountant,"Financial Assitance (15),Merit Basis (25)"
+BS Data Science,Male,Fall 2023,Late,4,18.537235197245302,67.75,0,59.25,61706.5,Businessman,Kin ship (30)
+BS English,Female,Spring 2022,Early,4,19.662328767123288,54,0,57.25,8368.5,Business Man,Merit Basis (20)
+BS English,Male,Fall 2023,Late,4,19.678536941387826,60.25,0,63.5,34814,Farmer,"Merit Basis (19),Merit Basis (25)"
+BS English (After 14 years edu),Female,Fall 2023,Early,4,24.320023953888764,56.75,0,39.75,40576.25,Late,Financial Assitance (15)
+BS English (After 14 years edu),Female,Spring 2024,Early,4,25.079918032786885,49.75,0,64.75,9396,Labour,Merit Basis (15)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2023,Early,4,18.826644958454974,71.25,0,28.75,18244,Business Partner,Merit Basis (100)
+BS International Relations,Male,Fall 2022,Late,4,20.002054794520546,67.25,0,73,34603.75,Business,Allumni Siblings (30)
+BS Islamic Studies,Male,Fall 2021,Early,4,22.85958904109589,66.75,1.495,68.5,1901.5,Businessman,"Financial Assitance (20),Merit Basis (20)"
+BS Mass Communication and Media Studies,Male,Fall 2023,Late,4,19.345141851935026,57,0,52,12590,Businessman,Merit Basis (25)
+BS Mass Communication and Media Studies,Male,Spring 2024,Early,4,21.379781420765028,58.5,0,37.5,4284,Business man,Merit Basis (40)
+BS Political Science,Female,Fall 2021,Early,4,22.604794520547944,55.25,1.6075,78.25,2742.5,Business,Kin ship (50)
+BS Political Science,Male,Fall 2021,Late,4,20.041780821917808,57,2.0225,60.75,0,Labour,NA
+BS Political Science,Male,Fall 2022,Late,4,20.110958904109587,50.5,0,49.25,0,agriculture,NA
+BS Political Science (After 14 years edu),Female,Fall 2022,Late,4,21.42054794520548,63.5,0,94.5,0,Labour,NA
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2023,Early,4,20.259255932330262,55,0,41.75,20838.75,Army Retired,Allumni Siblings (30)
+BS Psychology - Main Block,Male,Fall 2023,Early,4,19.123444868627892,72.75,0,46.25,20025,AC Repairing And Fixing,Merit Basis (25)
+BS Sociology - Main Block,Male,Fall 2021,Early,4,20.118493150684934,58.75,1.0075,51.25,0,Agriculture,NA
+BS Sociology - Main Block,Male,Fall 2022,Early,4,20.853424657534248,63,0,61.25,0,Farmer,NA
+BS Software Engineering,Female,Fall 2021,Late,4,19.21095890410959,53.2825,2.7475,73.25,37500,Business Man,"Kin ship (50),Learn While You Earn (5)"
+BS Software Engineering,Female,Fall 2022,Early,4,19.67876712328767,68,0,74.5,72256.25,Businessman,Merit Basis (15)
+M Phil Applied Linguistics,Female,Spring 2022,Early,4,22.82876712328767,3.4425,0,63.25,50875.25,BusinessMan,GIFT University Alumni (20)
+M Phil Mass Communication and Media Studies,Male,Fall 2021,Early,4,29.487671232876714,17.6775,1.475,85,49732.5,Advertiser,GIFT University Alumni (50)
+M Phil Mass Communication and Media Studies,Male,Fall 2022,Early,4,24.59246575342466,3.6325,0,81.5,57470.5,Land Lord,GIFT University Alumni (25)
+MA English Language and Literature,Female,Spring 2022,Early,4,22.746575342465754,55.5,0,33.75,23377.5,Bussiness Man,Merit Basis (20)
+MBA for Business Graduates (Morning),Female,Fall 2022,Early,4,26.023972602739725,3.1275,0,75,20118.75,Agricultre,Merit Basis (10)
+MBA for Business Graduates (Morning),Male,Spring 2022,Early,4,25.206849315068496,2.5975,0,51.75,24934.5,Bussiness,Merit Basis (10)
+MPhil English,Female,Fall 2024,Early,4,23.19491915562542,3.5125,0,67.75,0,Farmer,NA
+MPhil Islamic Studies,Male,Fall 2022,Early,4,27.278082191780822,65.25,0,34,31105,Employe,Merit Basis (10)
+MPhil Management Sciences,Male,Spring 2022,Early,4,25.850684931506848,3.1975,0,39.75,54296,Business,GIFT University Alumni (20)
+MPhil Management Sciences,Male,Spring 2023,Early,4,29.486301369863014,18.2675,0,56.75,11674,Business Man,Merit Basis (10)
+MPhil Psychology,Female,Spring 2024,Early,4,23.846311475409834,3.4625,0,44.25,23185.25,Business Man,GIFT University Alumni (25)
+MS Computer Science,Female,Fall 2021,Early,4,27.253424657534246,3.1675,1.6675,51.25,33434.25,Business,Merit Basis (10)
+MSc Accounting and Finance,Female,Spring 2022,Early,4,24.39931506849315,52.25,0,39.25,14310,Business,Learn While You Earn (10)
+AD  Graphic Design,Female,Fall 2024,Early,3,19.058287795992715,57.666666666666664,0,35.333333333333336,40400,Business,"Financial Assitance (30),Learn While You Earn (30),Merit Basis (15)"
+AD Sociology,Female,Fall 2024,Early,3,20.811298250867083,65.66666666666667,0,64.33333333333333,15526.666666666666,Business man,Kin ship (30)
+AD Textile and Fashion Design,Female,Fall 2024,Early,3,20.214180203109017,56.666666666666664,0,36,26864,Farmer,Kin ship (15)
+AD Textile and Fashion Design,Female,Spring 2024,Early,3,21.522768670309656,59,0,61,20944,Banker,Merit Basis (20)
+B Des (Hons) Graphic Design,Female,Fall 2024,Early,3,18.7416373481049,65,0,20,35844,Pharmacy Owner,"Financial Assitance (35),Merit Basis (40)"
+B Des (Hons) Graphic Design,Female,Spring 2022,Late,3,19.352511415525115,64.33333333333333,0,31,74050.33333333333,DHMS,"Financial Assitance (30),Merit Basis (15),Merit Basis (20)"
+B Des (Hons) Graphic Design,Male,Spring 2024,Early,3,21.15573770491803,57.666666666666664,0,49,12198.333333333334,Farmer,Merit Basis (25)
+B Des (Hons) Textile and Fashion,Female,Fall 2023,Early,3,19.383237268258604,60,0,53.666666666666664,0,Business,NA
+B Des (Hons) Textile and Fashion,Male,Fall 2023,Early,3,19.08095416323577,65,0,26.666666666666668,0,Farmer,Merit Basis (30)
+BCom (Hons),Male,Fall 2021,Late,3,19.164383561643834,58,2.3266666666666667,47.333333333333336,17073.333333333332,Businessman,"Merit Basis (10),Merit Basis (20)"
+BCom (Hons),Male,Fall 2022,Late,3,19.239269406392694,60.333333333333336,0,63.666666666666664,40116,Driver,GIFT College Student (50)
+BS Accounting and Finance,Female,Fall 2021,Early,3,19.647488584474885,63.666666666666664,0.9500000000000001,44.333333333333336,44532,Driver,Merit Basis (20)
+BS Accounting and Finance,Female,Fall 2021,Late,3,18.929680365296804,61.333333333333336,2.96,77,35503,Business Man,GIFT College Student (50)
+BS Business Administration,Female,Fall 2022,Early,3,18.900456621004565,60.666666666666664,0,21.666666666666668,39219,Business man,Merit Basis (15)
+BS Business Administration,Female,Fall 2023,Early,3,20.14016019163111,62.666666666666664,0,36.333333333333336,28198.666666666668,Labor,Learn While You Earn (30)
+BS Business Administration,Male,Spring 2022,Late,3,21.100456621004565,73,0,56.5,62711,Business,Merit Basis (30)
+BS Business Administration,Male,Spring 2023,Early,3,20.635616438356166,66.66666666666667,0,49.666666666666664,22403.333333333332,Businessman,Merit Basis (25)
+BS Business Administration (After 14 years edu),Female,Fall 2022,Late,3,22.197260273972603,51.666666666666664,0,84.66666666666667,0,Farmer,Kin ship (30)
+BS Business Economics,Female,Fall 2023,Early,3,18.177089103475808,63,0,18.666666666666668,30958.333333333332,Labour,Financial Assitance (35)
+BS Business Economics,Male,Fall 2023,Late,3,19.982294083888515,56.333333333333336,0,56.666666666666664,11181.666666666666,Clerk,Kin ship (30)
+BS Business Economics,Male,Fall 2024,Early,3,19.413479052823316,49,0,61.666666666666664,0,Farmer,NA
+BS Clinical Psychology - Main Block,Male,Fall 2021,Early,3,20.042922374429224,58.333333333333336,3.2866666666666666,46,0,Business Man,Merit Basis (30)
+BS Clinical Psychology - Main Block,Male,Fall 2022,Late,3,19.87579908675799,59.333333333333336,0,63,49329.333333333336,Business,GIFT College Student (50)
+BS Clinical Psychology - Main Block,Male,Fall 2024,Early,3,20.134867879332287,68.66666666666667,0,61.333333333333336,49050.666666666664,Business Men,Merit Basis (15)
+BS Clinical Psychology - Main Block (After 14 years edu),Female,Fall 2024,Early,3,20.781892357212367,55,0,49,55088.333333333336,Marketing,Allumni Siblings (30)
+BS Computer Science,Female,Fall 2022,Late,3,19.161643835616438,64,0,68.66666666666667,37756.333333333336,Property Dealer,Kin ship (30)
+BS Computer Science,Female,Spring 2022,Late,3,20.29497716894977,64,0,90.66666666666667,0,Salles Man,"Merit Basis (10),Merit Basis (20)"
+BS Computer Science,Female,Spring 2023,Early,3,18.020091324200912,70,0,26.666666666666668,16461.666666666668,Driver,Merit Basis (15)
+BS Data Science,Female,Fall 2022,Early,3,18.665753424657535,72,0,13,59562.666666666664,Business Man,Merit Basis (15)
+BS Data Science,Male,Fall 2021,Late,3,18.299543378995434,60,1.8900000000000001,23.666666666666668,82360,Automobile Technician,Merit Basis (20)
+BS Education - Girls Block (Only for Females),Female,Fall 2022,Early,3,20.24474885844749,63.666666666666664,0,52.666666666666664,0,Businessman,NA
+BS Education - Girls Block (Only for Females),Female,Fall 2023,Early,3,19.92054794520548,53.333333333333336,0,63.333333333333336,0,Business,NA
+BS Education - Main Block,Female,Spring 2022,Early,3,20.812785388127853,57.333333333333336,0,38.666666666666664,0,Labour,NA
+BS Education - Main Block,Male,Fall 2023,Early,3,19.18325722983257,60.666666666666664,0,12,9436.666666666666,Govt Employee,"Financial Assitance (60),Merit Basis (15)"
+BS English,Female,Spring 2023,Early,3,21.457534246575342,56.333333333333336,0,71.33333333333333,0,Bussinessman,Merit Basis (15)
+BS English,Male,Fall 2023,Early,3,28.192067769543627,62.333333333333336,0,32.666666666666664,0,Agriculture,Merit Basis (25)
+BS English (After 14 years edu),Male,Fall 2022,Late,3,27.29497716894977,58.333333333333336,0,86.66666666666667,0,Labour,Allumni Siblings (30)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2021,Early,3,18.90319634703196,55,0.9433333333333334,63,0,Businesman,NA
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2021,Late,3,19.017351598173516,67,2.7933333333333334,74.33333333333333,11345.666666666666,Business,Kin ship (50)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2022,Early,3,17.842922374429225,73.66666666666667,0,35,0,Farmer,Merit Basis (40)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2024,Early,3,19.03470319634703,63.666666666666664,0,72.33333333333333,30160.666666666668,Farmer,Allumni Siblings (30)
+BS Home Economics Food and Nutrition at Main Block,Female,Fall 2022,Early,3,18.541552511415524,65.66666666666667,0,15,35405.666666666664,Driver,Merit Basis (15)
+BS Home Economics Food and Nutrition at Main Block,Female,Fall 2023,Early,3,18.67579908675799,78,0,26.333333333333332,35308.333333333336,Businessman,Merit Basis (40)
+BS Interior Design,Female,Fall 2022,Early,3,24.778995433789955,61.666666666666664,0,72.66666666666667,0,Govt Worker,Financial Assitance (10)
+BS Interior Design,Female,Fall 2023,Late,3,18.40575142850014,60.666666666666664,0,53,26966.666666666668,Abroad,Kin ship (30)
+BS Interior Design,Female,Spring 2024,Early,3,22.986338797814206,77.33333333333333,0,34,56697,Business Man,Merit Basis (15)
+BS International Relations,Female,Fall 2021,Late,3,19.11415525114155,78.66666666666667,3.3533333333333335,70.66666666666667,21237,Businessman,Merit Basis (30)
+BS International Relations,Female,Fall 2022,Early,3,19.629223744292236,57.666666666666664,0,42,26092.666666666668,Business man,Merit Basis (15)
+BS International Relations,Female,Fall 2023,Early,3,22.028976719814356,68.66666666666667,0,30.333333333333332,15179,Businessman,Merit Basis (25)
+BS International Relations,Male,Fall 2023,Late,3,19.29132420091324,56.333333333333336,0,83.66666666666667,0,General manager,Allumni Siblings (30)
+BS International Relations,Male,Fall 2024,Early,3,19.622040072859747,65.33333333333333,0,63.666666666666664,7950,Educationist,Merit Basis (15)
+BS International Relations,Male,Spring 2022,Early,3,20.917808219178085,62.333333333333336,0,89.66666666666667,7834.666666666667,Labour,"Financial Assitance (10),Merit Basis (30)"
+BS International Relations,Male,Spring 2023,Early,3,22.504109589041096,66,0,61.333333333333336,22048,Farmer,Merit Basis (15)
+BS International Relations (After 14 years edu),Female,Fall 2022,Late,3,21.586301369863016,59.666666666666664,0,87,0,business man,Merit Basis (15)
+BS Islamic Studies,Female,Fall 2022,Late,3,20.894977168949772,65.33333333333333,0,40.333333333333336,19081.666666666668,Govt. Teacher,"Financial Assitance (10),GIFT College Student (50)"
+BS Islamic Studies,Female,Fall 2023,Early,3,21.744050203358533,55.666666666666664,0,76,12168.333333333334,Company Manager,Merit Basis (15)
+BS Islamic Studies,Male,Fall 2021,Late,3,19.891324200913242,77,3.18,78.66666666666667,8945.333333333334,Imam Masjid,Merit Basis (20)
+BS Mass Communication and Media Studies,Female,Fall 2021,Early,3,19.55799086757991,63.666666666666664,2.86,89.66666666666667,42306.666666666664,Businessman,Kin ship (50)
+BS Mass Communication and Media Studies,Female,Spring 2022,Early,3,21.14977168949772,51,0,70.66666666666667,0,Businessman,Orphans (45)
+BS Mathematics,Female,Fall 2022,Early,3,18.38082191780822,76.33333333333333,0,34.333333333333336,20759.666666666668,Labour,Merit Basis (40)
+BS Mathematics,Male,Fall 2021,Late,3,20.167123287671235,60.333333333333336,2.52,75.33333333333333,54147.333333333336,Labour,Financial Assitance (50)
+BS Political Science,Female,Fall 2021,Late,3,19.689497716894977,59.666666666666664,2.6433333333333335,67.66666666666667,0,Businessman,NA
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2021,Early,3,20.867579908675797,74.66666666666667,0,30.666666666666668,29106,Business,Merit Basis (30)
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2022,Early,3,21.288584474885845,51,0,59,0,Out Of Country,GIFT College Student (50)
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2024,Early,3,22.328103400953164,56,0,17.666666666666668,0,Police Inspector,NA
+BS Psychology - Main Block,Female,Fall 2021,Late,3,18.402739726027395,66.66666666666667,2.9766666666666666,70.66666666666667,11716,Business,Merit Basis (30)
+BS Psychology - Main Block,Female,Fall 2023,Early,3,19.2435411832223,66.66666666666667,0,40.666666666666664,20013.333333333332,Farmer,Financial Assitance (40)
+BS Psychology - Main Block (After 14 years edu),Female,Fall 2021,Early,3,21.873972602739727,55,0,40,11325,Business,Kin ship (50)
+BS Sociology - Main Block,Female,Fall 2021,Early,3,20.084018264840182,68.66666666666667,2.0166666666666666,80.33333333333333,0,Car Dealer,NA
+BS Sociology - Main Block,Female,Fall 2021,Late,3,18.72511415525114,53.333333333333336,2.5766666666666667,76.33333333333333,0,Employee,NA
+BS Sociology - Main Block,Male,Spring 2022,Early,3,20.26392694063927,74.66666666666667,0,58.666666666666664,0,Farmer,NA
+BS Software Engineering,Female,Fall 2022,Late,3,18.568949771689496,64.33333333333333,0,50,0,Business Man,Kin ship (30)
+BS Software Engineering,Female,Fall 2024,Early,3,18.338141577463382,73,0,62.333333333333336,39800,Employe,"Kin ship (30),Learn While You Earn (10)"
+M Phil Applied Linguistics,Female,Fall 2023,Early,3,25.825555805075233,17.936666666666667,0,55.666666666666664,0,Abroad,NA
+M Phil Applied Linguistics,Female,Spring 2024,Early,3,28.141165755919854,2.973333333333333,0,79.66666666666667,0,Businessman,NA
+MBA for Business Graduates (Morning),Female,Fall 2024,Early,3,24.26821368864935,2.89,0,53.666666666666664,28208.333333333332,Business Men,"Financial Assitance (20),GIFT University Alumni (25)"
+MBA for Business Graduates (Morning),Male,Spring 2024,Early,3,23.3816029143898,3.236666666666667,0,58.666666666666664,95116.66666666667,Businessman,GIFT University Alumni (25)
+MCom,Female,Spring 2022,Early,3,21.557077625570777,51.333333333333336,0,66,0,Agricultural,Learn While You Earn (40)
+MPhil Education,Female,Fall 2024,Early,3,23.484931506849314,3.27,0,85.66666666666667,100462,Farmer,GIFT University Alumni (25)
+MPhil English,Female,Fall 2022,Early,3,34.66392694063927,3.29,0,70.66666666666667,12964.666666666666,Businessman,Merit Basis (10)
+MPhil Islamic Studies,Female,Fall 2024,Early,3,24.90072859744991,3.47,0,64.33333333333333,0,Farmer,NA
+MPhil Management Sciences,Male,Fall 2022,Early,3,25.370776255707764,2.9733333333333336,0,49.333333333333336,0,Farmer,Financial Assitance (10)
+MPhil Psychology,Female,Fall 2023,Early,3,24.534099358734437,22.946666666666665,0,67,26544,Interior Decorator,Merit Basis (20)
+AD  Graphic Design,Male,Fall 2023,Early,2,19.241803278688522,49.5,0,66.5,38370,Agriculture,Kin ship (30)
+AD Accounting and Finance,Male,Fall 2023,Late,2,19.908469945355193,63,0,59.5,33162.5,Business Man,Merit Basis (25)
+AD Accounting and Finance,Male,Spring 2024,Early,2,20.601092896174862,58.5,0,80,0,Security Officer,Allumni Siblings (30)
+AD Clinical Psychology,Female,Fall 2024,Early,2,23.205479452054796,58,0,39.5,0,businessmen,Kin ship (30)
+AD Computer Science,Male,Fall 2023,Late,2,18.50673328841979,67,0,73.5,105447.5,Daily Wages,Learn While You Earn (40)
+AD Computer Science,Male,Fall 2024,Early,2,18.696025151583203,69.5,0,30.5,54200,Hafiz Ghulam Qadir,Kin ship (30)
+AD Computer Science,Male,Spring 2024,Early,2,20.795081967213115,69.5,0,35,58250,Farmer,Merit Basis (25)
+AD Management Sciences,Male,Fall 2023,Early,2,23.384905307283482,56.5,0,46,16698.5,Farmer,Merit Basis (15)
+ADCP,Female,Fall 2021,Early,2,25.56849315068493,30.52,0,47,0,Farmer,NA
+B Des (Hons) Graphic Design,Female,Fall 2023,Early,2,18.731506849315068,77.5,0,27.5,39200,Business Man,Merit Basis (25)
+B Des (Hons) Graphic Design,Female,Fall 2023,Late,2,19.693917957930985,67.5,0,81.5,50202.5,Doctor,Merit Basis (40)
+B Des (Hons) Graphic Design,Female,Spring 2022,Early,2,21.36027397260274,56.5,0,73,0,Business man,"Financial Assitance (5),Merit Basis (20)"
+B Des (Hons) Graphic Design,Female,Spring 2023,Early,2,18.886301369863013,48.5,0,57,14770,Driver,Kin ship (30)
+B Des (Hons) Graphic Design,Female,Spring 2024,Early,2,19.120218579234972,53.5,0,80.5,0,Electrician,NA
+B Des (Hons) Graphic Design,Male,Fall 2022,Late,2,20.347945205479455,48,0,70,0,Businessman,NA
+B Des (Hons) Textile and Fashion,Female,Spring 2024,Early,2,18.76502732240437,60,0,47.5,39550.5,Businessman,Merit Basis (15)
+B Des (Hons) Textile and Fashion,Male,Fall 2022,Late,2,25.997260273972604,59.5,0,27,87247,Businessman,GIFT College Student (50)
+B Des (Hons) Textile and Fashion,Male,Fall 2024,Early,2,20.877086608279065,80.5,0,48,56694,Ret Army Officer,Merit Basis (25)
+B.Ed.,Female,Spring 2024,Early,2,21.534153005464482,64,0,59,25187,Business Man,"Learn While You Earn (35),Merit Basis (15)"
+B.Sc. Electrical Engineering,Male,Fall 2021,Early,2,19.49041095890411,61,1.28,50.5,0,Welding,NA
+B.Sc. Electrical Engineering,Male,Fall 2022,Late,2,20.03972602739726,73.5,0,74,102695,Govt employee,Merit Basis (20)
+BCom (Hons),Female,Fall 2021,Early,2,21.682191780821917,61.5,1.415,41,54258.5,Nil,Learn While You Earn (25)
+BCom (Hons),Female,Fall 2022,Early,2,17.764383561643836,72,0,21,17938,Driver,"Financial Assitance (20),Learn While You Earn (50)"
+BCom (Hons),Female,Spring 2022,Early,2,21.234246575342468,74.5,0,44,0,Farmer,Merit Basis (60)
+BCom (Hons),Female,Spring 2023,Early,2,20.956164383561642,50,0,64,19845,Businessman,Learn While You Earn (25)
+BCom (Hons),Male,Fall 2024,Early,2,20.187158469945356,45.5,0,72.5,26518,Business,Orphans (30)
+BCom (Hons),Male,Spring 2023,Early,2,19.350684931506848,48,0,64.5,0,Businessman,NA
+BCom (Hons) (After 14 years edu),Female,Fall 2022,Early,2,21.984931506849314,51.5,0,16.5,61519.5,Labour,Learn While You Earn (30)
+BS Accounting and Finance,Female,Fall 2022,Early,2,18.035616438356165,60,0,82,17535,Businessman,"Merit Basis (15),Orphans (35)"
+BS Accounting and Finance,Female,Spring 2022,Early,2,18.230136986301368,81,0,40.5,50704,Jeweler,Merit Basis (20)
+BS Accounting and Finance,Female,Spring 2024,Early,2,20.403005464480874,49.5,0,46.5,0,Army,NA
+BS Accounting and Finance,Male,Spring 2022,Early,2,20.473972602739728,45,0,55.5,0,Cable Tv,NA
+BS Accounting and Finance,Male,Spring 2023,Early,2,20.615068493150687,63,0,67,26302.5,Employe,Merit Basis (25)
+BS Accounting and Finance,Male,Spring 2023,Late,2,22.50958904109589,51.5,0,44.5,0,Farmer,NA
+BS Accounting and Finance,Male,Spring 2024,Early,2,20.23360655737705,50,0,63,0,Businessman,NA
+BS Accounting and Finance (After 14 years edu),Female,Spring 2023,Early,2,26.51917808219178,29.61,0,68,73427.5,Electrician,Learn While You Earn (10)
+BS Accounting and Finance (After 14 years edu),Female,Spring 2024,Early,2,22.953551912568308,59.5,0,43.5,73615.5,"Govt-em,ployee",Merit Basis (15)
+BS Accounting and Finance (After 14 years edu),Male,Spring 2023,Early,2,21.426027397260274,2.545,0,36.5,76797,Dealer,Merit Basis (15)
+BS Accounting and Finance (After 14 years edu),Male,Spring 2024,Early,2,24.435792349726775,46.5,0,25.5,29150,Retired,Learn While You Earn (60)
+BS Business Administration,Female,Spring 2023,Late,2,19.150684931506852,47.5,0,82,0,Businessman,NA
+BS Business Economics,Female,Fall 2021,Late,2,19.471232876712328,53,3.205,83.5,0,Sanitary,NA
+BS Business Economics,Female,Fall 2022,Early,2,19.819178082191783,90.5,0,65,0,Late,NA
+BS Business Economics,Female,Fall 2023,Late,2,18.927139007410734,66,0,79,21004,Garment Shop,"Financial Assitance (15),Learn While You Earn (20)"
+BS Business Economics,Male,Spring 2022,Late,2,20.257534246575343,68.5,0,59,0,Farmer,NA
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2023,Late,2,18.484504828205704,79.5,0,87.5,0,Buisnessman,Merit Basis (25)
+BS Clinical Psychology - Girls Block (Only for Females),Female,Fall 2024,Early,2,20.50960401227637,48,0,28.5,0,Labour,NA
+BS Clinical Psychology - Girls Block (Only for Females),Female,Spring 2024,Early,2,20.290983606557376,74.5,0,43.5,31550,Army Person,Financial Assitance (10)
+BS Clinical Psychology - Main Block,Female,Fall 2022,Late,2,18.368493150684934,59,0,66.5,0,Businessman,"Merit Basis (25),Orphans (45)"
+BS Clinical Psychology - Main Block,Female,Spring 2022,Late,2,19.28082191780822,72,0,60.5,28395,Labour,"Learn While You Earn (20),Merit Basis (30)"
+BS Clinical Psychology - Main Block,Female,Spring 2024,Early,2,20.777322404371585,54.5,0,72.5,0,Business Man,NA
+BS Clinical Psychology - Main Block,Male,Fall 2022,Early,2,20.554794520547944,59.5,0,64,29066,Business,"Financial Assitance (15),Merit Basis (15)"
+BS Clinical Psychology - Main Block,Male,Fall 2023,Early,2,18.12841530054645,55.5,0,10,37185,Labour,Learn While You Earn (30)
+BS Clinical Psychology - Main Block,Male,Fall 2023,Late,2,20.518616662923872,64.5,0,33,107822,Business Man,"Merit Basis (11),Merit Basis (15)"
+BS Clinical Psychology - Main Block (After 14 years edu),Female,Spring 2022,Early,2,21.387671232876713,55.5,0,47.5,28288,Factory worker,Merit Basis (20)
+BS Computer Science,Male,Spring 2022,Late,2,21.073972602739726,62,0,89,0,Punjab Police,Learn While You Earn (20)
+BS Data Science,Female,Fall 2021,Late,2,18.461643835616435,89.5,3.18,74,64060,Car Mechanic,Merit Basis (45)
+BS Education - Girls Block (Only for Females),Female,Fall 2022,Late,2,18.73013698630137,52.5,0,58,0,Farmer,NA
+BS Education - Main Block,Female,Fall 2023,Early,2,19.864383561643834,58,0,21.5,24127,Driver,Merit Basis (15)
+BS Education - Main Block,Female,Spring 2023,Early,2,22.079452054794523,55,0,53,0,salesman,NA
+BS Education - Main Block,Male,Fall 2021,Late,2,20.33150684931507,52.5,1.79,41,0,Farmer,NA
+BS Education - Main Block (After 14 years edu),Female,Fall 2023,Early,2,22.562444793771988,54,0,3.5,49127.5,Farmer,Financial Assitance (10)
+BS Education - Main Block (After 14 years edu),Female,Spring 2024,Early,2,22.226775956284154,55.5,0,53,9197.5,Property Dealer,Merit Basis (25)
+BS English,Male,Spring 2022,Late,2,20.745205479452054,56.5,0,58,14525,Employee,Kin ship (50)
+BS English,Male,Spring 2023,Late,2,20.124657534246573,46,0,71,0,Farmer,NA
+BS English (After 14 years edu),Female,Fall 2023,Late,2,21.329234972677597,51.5,0,67.5,25392.5,Agriculture,Merit Basis (15)
+BS English (After 14 years edu),Female,Spring 2022,Early,2,21.087671232876712,55,0,34,22650,Business,Merit Basis (20)
+BS English (After 14 years edu),Male,Spring 2024,Early,2,28.043715846994537,36.55,0,70,54022.5,Business Man,Merit Basis (15)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Spring 2022,Early,2,18.664383561643838,59.5,0,19,4792.5,Cotton Incharge,Kin ship (50)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Spring 2023,Early,2,19.482191780821918,51.5,0,27.5,0,businessman,NA
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Spring 2023,Late,2,18.687671232876713,64.5,0,85,4000,Government employee,Merit Basis (40)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Spring 2024,Early,2,23.091530054644807,62,0,77.5,34295,Business Man,Kin ship (30)
+BS Home Economics (Food & Nutrition) Girls Block ( Only for Females) (After 14 years edu),Female,Fall 2021,Early,2,22.254794520547946,31.835,1.5,16.5,0,Labour,GIFT University AD Degree Holder (25)
+BS Home Economics (Interior Design) - Girls Block (Only for Females),Female,Fall 2022,Late,2,18.78356164383562,56,0,85,0,Job,"Learn While You Earn (10),Merit Basis (15)"
+BS Home Economics Food and Nutrition at Main Block,Female,Fall 2022,Late,2,18.526027397260272,62,0,48,24905,Business Man,"Merit Basis (11),Merit Basis (15)"
+BS Home Economics Food and Nutrition at Main Block,Female,Fall 2024,Early,2,20.248633879781423,51,0,9.5,28860,Businessman,Orphans (30)
+BS Home Economics Food and Nutrition at Main Block (Only for Females),Female,Fall 2021,Late,2,18.58219178082192,59,2.75,71,37448,Business,Merit Basis (20)
+BS Interior Design,Female,Fall 2022,Late,2,20.42876712328767,49.5,0,55.5,76309,Shop Owner,Allumni Siblings (30)
+BS Interior Design,Female,Fall 2023,Early,2,20.462658133093797,60.5,0,61,23196.5,Business man,Merit Basis (15)
+BS Interior Design,Male,Fall 2022,Early,2,16.987671232876714,52.5,0,38.5,0,Farmer,NA
+BS International Relations,Female,Fall 2021,Early,2,18.60958904109589,65.5,0,42,23836,Police,"Financial Assitance (35),Financial Assitance (55),Merit Till 15-10-2021 (20)"
+BS International Relations,Female,Fall 2022,Late,2,18.446575342465756,56,0,91,0,Marketing,GIFT College Student (50)
+BS International Relations,Female,Fall 2023,Late,2,20.564009282131895,50.5,0,73,28908.5,Farmer,"Allumni Siblings (30),Learn While You Earn (25)"
+BS International Relations,Female,Fall 2024,Early,2,21.027872595254138,72.5,0,24,50780,abroad,Merit Basis (15)
+BS International Relations,Female,Spring 2022,Early,2,19.919178082191777,52,0,67,29982.5,BusinessMan,Learn While You Earn (40)
+BS International Relations,Female,Spring 2024,Early,2,23.33743169398907,54.5,0,78,0,NA,NA
+BS International Relations,Male,Spring 2022,Late,2,20.475342465753425,57.5,0,73.5,62150,Farmer,Kin ship (50)
+BS Islamic Studies,Female,Fall 2022,Early,2,21.66986301369863,56.5,0,55.5,0,Business Man,Merit Basis (15)
+BS Islamic Studies,Female,Fall 2024,Early,2,21.006153155176285,52,0,52.5,0,Businessman,NA
+BS Islamic Studies,Female,Spring 2023,Early,2,20.053424657534244,71.5,0,59.5,12112,BusinessMan,Merit Basis (40)
+BS Islamic Studies,Male,Spring 2022,Early,2,22.457534246575342,57,0,61.5,0,Teacher,NA
+BS Islamic Studies,Male,Spring 2024,Early,2,23.490437158469945,61.5,0,15.5,20427.5,Cloth House,Learn While You Earn (30)
+BS Mass Communication and Media Studies,Female,Fall 2023,Late,2,18.57332509918407,57,0,63,4500,Business Man,"Financial Assitance (20),Learn While You Earn (15),Merit Basis (15)"
+BS Mass Communication and Media Studies,Male,Fall 2024,Early,2,19.065809566584328,56,0,72.5,0,Inspector Punjab Police,NA
+BS Mass Communication and Media Studies (After 14 years edu),Male,Fall 2023,Early,2,28.493146942136388,60,0,51,49980,Deceased,Merit Basis (25)
+BS Mathematics,Female,Fall 2023,Early,2,18.901639344262296,72.5,0,28,25803,Labour,"Financial Assitance (10),Learn While You Earn (10),Merit Basis (25)"
+BS Mathematics (After 14 years edu),Male,Fall 2022,Early,2,22.71232876712329,58,0,32,38088,Labour,Merit Basis (15)
+BS Political Science,Female,Fall 2022,Early,2,20.475342465753425,62,0,65.5,0,Agriculuture,NA
+BS Political Science,Female,Fall 2024,Early,2,19.347181675275095,56.5,0,33,30331,farmer,Learn While You Earn (30)
+BS Political Science,Male,Spring 2022,Late,2,20.158904109589038,63,0,63,0,Store,NA
+BS Political Science,Male,Spring 2023,Early,2,17.773972602739725,52.5,0,73,0,Businessman,NA
+BS Political Science,Male,Spring 2024,Early,2,20.509562841530055,55,0,28,16482,Constructor,Merit Basis (15)
+BS Political Science (After 14 years edu),Female,Fall 2022,Early,2,22.184931506849317,55,0,44.5,0,NA,NA
+BS Political Science (After 14 years edu),Male,Fall 2021,Early,2,21.806849315068494,59,1.34,59.5,0,Businessman,NA
+BS Political Science (After 14 years edu),Male,Fall 2022,Late,2,25.164383561643838,56.5,0,88.5,0,Retired Pharmacist,NA
+BS Psychology - Main Block,Female,Fall 2022,Late,2,20.108219178082194,78.5,0,50,47560,Businessman,GIFT College Student (Gap) (40)
+BS Psychology - Main Block,Female,Fall 2024,Early,2,18.304109589041097,60.5,0,29.5,28470,Business,Merit Basis (15)
+BS Psychology - Main Block,Female,Spring 2023,Early,2,19.234246575342468,59.5,0,8,20323.5,Businessman,Merit Basis (15)
+BS Psychology - Main Block,Female,Spring 2024,Early,2,22.51912568306011,64,0,42.5,0,Businessman,"Financial Assitance (10),GIFT Employee (50)"
+BS Psychology - Main Block,Male,Fall 2021,Early,2,19.015068493150686,58.5,0.84,65,0,Journalist,Merit Basis (20)
+BS Psychology - Main Block,Male,Fall 2024,Early,2,21.263013698630136,58,0,17.5,29650,Business,Merit Basis (25)
+BS Psychology - Main Block (After 14 years edu),Female,Fall 2023,Early,2,22.293143199341266,67,0,54,41748.5,Business,"Financial Assitance (15),Learn While You Earn (15),Merit Basis (40)"
+BS Social Media,Male,Fall 2022,Early,2,19.082191780821915,50.5,0,75.5,5607,Advocate,GIFT College Student (50)
+BS Social Media,Male,Fall 2023,Early,2,21.23360655737705,52.5,0,61.5,0,Businessman,NA
+BS Sociology - Main Block,Female,Fall 2022,Early,2,18.16986301369863,64,0,52,0,Businessman,NA
+BS Sociology - Main Block,Female,Fall 2023,Early,2,19.651639344262296,60,0,48.5,38797.5,Labour,"Financial Assitance (15),Merit Basis (15)"
+BS Sociology - Main Block,Female,Fall 2024,Early,2,20.63661202185792,65.5,0,51,33320,Driver,"Financial Assitance (45),Merit Basis (25)"
+BS Sociology - Main Block,Male,Fall 2023,Early,2,21.408129350999324,49.5,0,79,0,Farmer,NA
+BS Sociology - Main Block,Male,Spring 2023,Early,2,22.726027397260275,53,0,13.5,0,Teacher,NA
+BS Software Engineering,Male,Fall 2022,Late,2,18.887671232876713,68.5,0,81,53360,Govt Employee,Kin ship (30)
+M Phil Applied Linguistics,Female,Fall 2021,Early,2,24.353424657534248,3.4699999999999998,1.765,62,0,Paralyzed,"Financial Assitance (50),GIFT University Alumni (20)"
+M Phil Applied Linguistics,Female,Fall 2024,Early,2,24.958181750130997,3.49,0,57,0,Rtd. Public Servant,NA
+M Sc Home Economics (Food & Nutrition) - Girls Block ( Only for Females),Female,Fall 2021,Early,2,22.28082191780822,66,1.925,86.5,15861.5,Businessman,Merit Basis (20)
+MA English Language and Literature,Female,Fall 2021,Early,2,23.302739726027397,57.5,0,37.5,15865,Businesman,Merit Basis (40)
+MBA for Business Graduates (Morning),Male,Fall 2021,Early,2,24.227397260273975,3.41,0,29,56333,Business,"Learn While You Earn (20),Merit Basis (10)"
+MBA for Business Graduates (Morning),Male,Fall 2023,Early,2,23.61595179279886,3.13,0,42.5,51575,Businessman,Merit Basis (10)
+MCom,Male,Fall 2021,Early,2,23.483561643835614,52,0,57,0,Electrician,NA
+MPhil English,Female,Fall 2023,Early,2,29.661202185792348,25.885,0,79,0,Rice Dealer,NA
+MPhil English,Male,Fall 2022,Early,2,28.12054794520548,25.75,0,71.5,40662,Farmer,Merit Basis (10)
+MPhil English,Male,Fall 2022,Late,2,24.36986301369863,3.425,0,65,57320,Govt.Employ,Merit Basis (10)
+MPhil English,Male,Fall 2023,Early,2,28.973972602739725,3.0549999999999997,0,87.5,0,Late,NA
+MPhil Islamic Studies,Male,Fall 2022,Late,2,25.72876712328767,75,0,80,20740,Govt.Job,Merit Basis (10)
+MPhil Management Sciences,Female,Fall 2022,Early,2,26.204109589041096,3.04,0,48.5,46696.5,Businessman,Merit Basis (10)
+MPhil Management Sciences,Female,Fall 2023,Early,2,26.065753424657537,30.275,0,54.5,50034.5,Agriculture,Learn While You Earn (25)
+MPhil Management Sciences,Female,Spring 2023,Early,2,26.972602739726028,3.0300000000000002,0,43.5,46696.5,Wapda Employee,Merit Basis (10)
+MPhil Management Sciences,Male,Fall 2021,Late,2,25.175342465753424,2.96,3.05,62.5,0,Farmer,GIFT University Alumni (20)
+MPhil Management Sciences,Male,Spring 2024,Early,2,34.713114754098356,31.44,0,67.5,0,N/A,NA
+MPhil Psychology,Female,Fall 2023,Late,2,23.15550939441575,3.3049999999999997,0,83.5,129090,Businessman,Merit Basis (10)
+MS Computer Science,Female,Fall 2022,Late,2,23.013698630136986,3.205,0,55.5,0,Metor-cycle Mechanic,Merit Basis (10)
+MS Computer Science,Male,Fall 2021,Early,2,24.884931506849313,2.8899999999999997,1.315,78.5,68196,Govt. Servant,GIFT University Alumni (20)
+MS Computer Science,Male,Fall 2023,Early,2,24.842465753424655,2.67,0,44,0,Business Man,NA
+Master of Mass Communication and Media Studies,Female,Fall 2021,Early,2,24.564383561643837,53.5,0,70.5,0,Businessman,NA
+AD  Graphic Design,Female,Fall 2023,Early,1,21.64109589041096,52,0,86,12140,Businessman,Allumni Siblings (30)
+AD  Graphic Design,Female,Fall 2023,Late,1,19.589041095890412,47,0,33,96755,Business Man,Kin ship (30)
+AD  Graphic Design,Female,Spring 2024,Early,1,18.01366120218579,49,0,42,0,Delivery Man,Learn While You Earn (45)
+AD  Graphic Design,Male,Fall 2024,Early,1,19.40821917808219,52,0,44,0,Farmer,NA
+AD Accounting and Finance,Female,Fall 2024,Early,1,22.778688524590162,62,0,70,73355,Retire Police Officer,Merit Basis (15)
+AD Accounting and Finance,Male,Fall 2023,Early,1,21.783561643835615,52,0,29,0,Job,NA
+AD Computer Science,Female,Fall 2023,Late,1,18.330601092896174,55,0,75,0,NA,Learn While You Earn (15)
+AD Computer Science,Female,Fall 2024,Early,1,21.89344262295082,56,0,12,0,NA,NA
+AD Computer Science,Female,Spring 2024,Early,1,18.450819672131146,65,0,87,0,Farmer,Merit Basis (15)
+AD Economics,Male,Spring 2024,Early,1,21.814207650273225,64,0,85,52542,Late,"Merit Basis (15),Orphans (30)"
+AD International Relations,Male,Fall 2024,Early,1,20.01095890410959,74,0,38,52876,labour,Learn While You Earn (10)
+AD Management Sciences,Female,Fall 2023,Early,1,18.437158469945356,96,0,19,0,Property Dealer,Merit Basis (100)
+AD Mass Communication and Media Studies,Female,Spring 2024,Early,1,22.229508196721312,65,0,51,51505,Business,Allumni Siblings (30)
+AD Mass Communication and Media Studies,Male,Fall 2023,Early,1,18.934246575342467,55,0,27,0,Businessman,NA
+AD Mass Communication and Media Studies,Male,Fall 2023,Late,1,18.40983606557377,53,0,76,0,NA,NA
+AD Political Science,Male,Fall 2024,Early,1,18.416438356164385,50,0,96,0,Farmer,NA
+AD Psychology,Female,Fall 2023,Early,1,22.01366120218579,89,0,65,14525,Late,Merit Basis (40)
+AD Psychology,Female,Fall 2023,Late,1,20.4672131147541,83,0,78,0,Farmer,Kin ship (30)
+AD Psychology,Male,Fall 2024,Early,1,20.743169398907103,75,0,35,51632,Farmer,Merit Basis (25)
+ADCP,Female,Fall 2021,Late,1,22.720547945205478,71,3.75,NA,0,security guard,NA
+ADCP,Female,Spring 2023,Late,1,25.161643835616438,3.69,0,81,0,NA,NA
+ADCP,Male,Fall 2022,Early,1,46.33424657534247,3.05,0,34,0,Professor,NA
+ADCP,Male,Fall 2024,Early,1,24.939890710382514,3.05,0,12,0,Retired Punjab Range,NA
+ADCP,Male,Spring 2022,Early,1,24.893150684931506,3.21,0,85,0,NA,NA
+B Des (Hons) Graphic Design,Female,Spring 2023,Late,1,21.2986301369863,65,0,89,0,Businessman,Kin ship (30)
+B Des (Hons) Graphic Design,Male,Fall 2023,Early,1,17.314207650273225,69,0,10,79280,Not Alive,"Financial Assitance (20),Merit Basis (15)"
+B Des (Hons) Graphic Design,Male,Fall 2023,Late,1,19.1775956284153,71,0,37,83157,Businessman,Kin ship (30)
+B Des (Hons) Graphic Design,Male,Fall 2024,Early,1,20.718579234972676,55,0,96,108004,worker,Learn While You Earn (20)
+B Des (Hons) Graphic Design,Male,Spring 2023,Early,1,19.12876712328767,62,0,36,69870,Business Man,Merit Basis (15)
+B Des (Hons) Textile and Fashion,Female,Spring 2023,Early,1,29.057534246575344,66,0,79,245856,Agriculture,"Merit Basis (8),Merit Basis (15)"
+B Des (Hons) Textile and Fashion,Male,Spring 2022,Early,1,19.835616438356166,57,0,60,0,Business Man,GIFT College Student (50)
+B Des (Hons) Textile and Fashion,Male,Spring 2023,Early,1,31.10958904109589,61,0,94,40172,NA,Merit Basis (15)
+B Des (Hons) Textile and Fashion,Male,Spring 2023,Late,1,19.13972602739726,46,0,75,0,Businessman,NA
+B.Ed. (1.5),Female,Spring 2024,Early,1,24.224043715846996,3.25,0,44,20395,Farmer,Merit Basis (10)
+B.Ed. (1.5),Male,Spring 2024,Early,1,23.639344262295083,3.32,0,10,0,NA,NA
+B.Sc. Electrical Engineering,Female,Fall 2021,Late,1,19.394520547945206,73,3.91,29,0,Contractor,NA
+B.Sc. Electrical Engineering,Male,Fall 2021,Late,1,18.89041095890411,66,3.34,57,0,NA,NA
+BCom (Hons),Female,Fall 2021,Late,1,18.356164383561644,64,3.23,86,72612,Businessman,Merit Basis (20)
+BCom (Hons),Female,Fall 2022,Late,1,18.84109589041096,45,0,43,13876,Fruit Seller,"GIFT College Student (50),Learn While You Earn (10)"
+BCom (Hons),Female,Fall 2023,Late,1,18.418032786885245,50,0,36,67262,Driver,Learn While You Earn (30)
+BCom (Hons),Male,Spring 2022,Early,1,21.410958904109588,51,0,49,30734,NA,Orphans (45)
+BCom (Hons),Male,Spring 2022,Late,1,19.926027397260274,65,0,86,101298,Clothes Store,"Merit Basis (15),Merit Basis (20)"
+BCom (Hons),Male,Spring 2023,Late,1,19.671232876712327,60,0,98,0,Businessman,Allumni Siblings (30)
+BCom (Hons) (After 14 years edu),Female,Fall 2023,Early,1,22.65753424657534,47,0,45,53075,Labour,Learn While You Earn (50)
+BCom (Hons) (After 14 years edu),Female,Fall 2024,Early,1,22.73224043715847,54,0,31,69670,Farmer,Merit Basis (15)
+BCom (Hons) (After 14 years edu),Female,Spring 2022,Late,1,23.134246575342466,52,0,NA,0,NA,NA
+BCom (Hons) (After 14 years edu),Female,Spring 2023,Late,1,20.46849315068493,45,0,84,51380,Labour,Learn While You Earn (65)
+BCom (Hons) (After 14 years edu),Male,Spring 2024,Early,1,21.226775956284154,61,0,29,0,Teacher,NA
+BS Accounting and Finance,Female,Fall 2022,Late,1,22.473972602739725,58,0,89,43360,Trade,"Kin ship (30),Learn While You Earn (30)"
+BS Accounting and Finance,Female,Fall 2023,Late,1,19.42349726775956,48,0,90,0,Government Employee,Learn While You Earn (15)
+BS Accounting and Finance,Female,Fall 2024,Early,1,22.915300546448087,65,0,28,52172,Mechnic,Merit Basis (15)
+BS Accounting and Finance,Female,Spring 2022,Late,1,20.698630136986303,71,0,59,9340,NA,"Merit Basis (30),Orphans (60)"
+BS Accounting and Finance,Female,Spring 2023,Late,1,21.410958904109588,65,0,30,0,Mechanic,Merit Basis (15)
+BS Accounting and Finance,Male,Spring 2022,Late,1,20.134246575342466,48,0,18,12275,Govt Job,Learn While You Earn (50)
+BS Accounting and Finance (After 14 years edu),Female,Fall 2021,Early,1,20.512328767123286,3.39,3.3,50,46938,Business,Kin ship (50)
+BS Accounting and Finance (After 14 years edu),Female,Fall 2022,Early,1,20.947945205479453,54,0,32,61127,Labour,Learn While You Earn (40)
+BS Accounting and Finance (After 14 years edu),Female,Fall 2023,Early,1,29.202185792349727,45,0,38,0,Nothing,NA
+BS Accounting and Finance (After 14 years edu),Male,Fall 2022,Late,1,21.32054794520548,51,0,83,0,Job in UAE,Kin ship (30)
+BS Accounting and Finance (After 14 years edu),Male,Fall 2023,Late,1,21.83013698630137,53,0,30,84104,Businessman,Kin ship (30)
+BS Accounting and Finance (After 14 years edu),Male,Fall 2024,Early,1,22.23013698630137,55,0,60,74025,Farmer,Merit Basis (15)
+BS Business Administration,Female,Fall 2023,Late,1,18.92054794520548,51,0,91,0,Business Man,NA
+BS Business Administration,Female,Fall 2024,Early,1,22.592896174863387,82,0,92,0,NA,Merit Basis (40)
+BS Business Administration,Female,Spring 2023,Early,1,22.863013698630137,73,0,15,69210,Businessman,Merit Basis (25)
+BS Business Administration,Female,Spring 2024,Early,1,18.87704918032787,69,0,55,91362,Business,"Learn While You Earn (15),Merit Basis (15)"
+BS Business Administration (After 14 years edu),Female,Fall 2022,Early,1,24.12876712328767,3.05,0,25,103815,NA,Merit Basis (25)
+BS Business Administration (After 14 years edu),Female,Fall 2023,Early,1,22.442622950819672,64,0,82,30907,Driver,"Financial Assitance (30),Merit Basis (25)"
+BS Business Administration (After 14 years edu),Female,Fall 2023,Late,1,25.221311475409838,59,0,91,0,Labour,"Financial Assitance (30),Merit Basis (15)"
+BS Business Administration (After 14 years edu),Female,Spring 2023,Late,1,27.106849315068494,47,0,NA,0,NA,NA
+BS Business Administration (After 14 years edu),Male,Spring 2022,Late,1,22.328767123287673,66,0,86,0,NA,Merit Basis (40)
+BS Business Economics,Female,Fall 2022,Late,1,18.873972602739727,56,0,81,0,Labour,NA
+BS Business Economics,Female,Spring 2022,Late,1,20.934246575342467,45,0,55,0,Garments,NA
+BS Business Economics,Female,Spring 2023,Early,1,22.095890410958905,54,0,50,0,NA,NA
+BS Business Economics,Male,Fall 2022,Late,1,20.21095890410959,60,0,68,0,NA,NA
+BS Business Economics,Male,Fall 2023,Early,1,20.215846994535518,62,0,95,35955,Factory,Merit Basis (15)
+BS Business Economics,Male,Spring 2023,Early,1,18.427397260273974,53,0,78,0,NA,NA
+BS Business Economics,Male,Spring 2024,Early,1,20.16393442622951,48,0,52,0,Businessman,NA
+BS Business Economics (After 14 years edu),Female,Fall 2022,Late,1,20.90958904109589,49,0,88,0,Army,NA
+BS Business Economics (After 14 years edu),Male,Fall 2022,Late,1,22.65753424657534,63,0,93,0,Steel Fixer,NA
+BS Clinical Psychology - Girls Block (Only for Females),Female,Spring 2023,Late,1,19.29041095890411,66,0,92,0,NA,Merit Basis (15)
+BS Clinical Psychology - Main Block,Female,Spring 2023,Early,1,17.75890410958904,45,0,33,0,NA,NA
+BS Clinical Psychology - Main Block,Male,Spring 2022,Early,1,20.202739726027396,70,0,64,42136,Business Man,Merit Basis (30)
+BS Clinical Psychology - Main Block,Male,Spring 2022,Late,1,18.9013698630137,49,0,10,0,Property Dealer,NA
+BS Clinical Psychology - Main Block,Male,Spring 2023,Early,1,18.38082191780822,63,0,87,1000,Property Dealer,Merit Basis (15)
+BS Clinical Psychology - Main Block,Male,Spring 2024,Early,1,16.93169398907104,55,0,10,0,Late,NA
+BS Clinical Psychology - Main Block (After 14 years edu),Female,Spring 2024,Early,1,29.69945355191257,45,0,17,0,Business man,NA
+BS Clinical Psychology - Main Block (After 14 years edu),Male,Fall 2024,Early,1,22.353424657534248,51,0,10,0,Shop Keeper,"Merit Basis (15),On Spot Discount (10)"
+BS Computer Science,Female,Spring 2023,Late,1,20.26027397260274,84,0,82,112750,Businessman,"Merit Basis (19),Merit Basis (25)"
+BS Data Science,Female,Fall 2022,Late,1,18.17808219178082,58,0,47,63720,Labour,"Financial Assitance (15),Learn While You Earn (25),Merit Basis (40)"
+BS Data Science,Male,Fall 2022,Late,1,18.649315068493152,62,0,11,60600,Agriculture,Merit Basis (15)
+BS Education - Main Block,Female,Fall 2021,Late,1,19.084931506849315,68,2.68,91,0,Contractor,NA
+BS Education - Main Block,Female,Fall 2023,Late,1,19.475409836065573,50,0,37,0,Driver,NA
+BS Education - Main Block,Female,Spring 2023,Late,1,17.698630136986303,61,0,89,0,Labour,NA
+BS Education - Main Block,Male,Spring 2022,Early,1,18.49041095890411,48,0,54,0,NA,NA
+BS Education - Main Block (After 14 years edu),Female,Spring 2023,Late,1,25.123287671232877,62,0,25,0,NA,NA
+BS Education - Main Block (After 14 years edu),Male,Spring 2023,Early,1,29.742465753424657,45,0,51,0,Trading,Allumni Siblings (30)
+BS English,Female,Spring 2022,Late,1,20,60,0,89,0,Business man,NA
+BS English (After 14 years edu),Female,Fall 2024,Early,1,21.172602739726027,61,0,29,53947,Bank Manager,"Merit Basis (25),On Spot Discount (10)"
+BS English (After 14 years edu),Female,Spring 2022,Late,1,21.10958904109589,48,0,85,33865,farmer,Allumni Siblings (50)
+BS English (After 14 years edu),Female,Spring 2023,Early,1,21.065753424657533,56,0,39,50809,Gardener,Merit Basis (15)
+BS English (After 14 years edu),Male,Fall 2022,Early,1,25.4986301369863,56,0,32,50809,Farmer,Merit Basis (15)
+BS English (After 14 years edu),Male,Fall 2023,Late,1,32.78630136986301,60,0,59,20600,Late,"Financial Assitance (15),Merit Basis (25)"
+BS English (After 14 years edu),Male,Spring 2022,Early,1,20.493150684931507,66,0,36,14479,Govt. Teacher,Conversion Discount (57)
+BS Home Economics (Food & Nutrition) - Girls Block (Only for Females),Female,Fall 2023,Late,1,20.778082191780822,65,0,89,0,Business,Merit Basis (15)
+BS Home Economics (Food & Nutrition) Girls Block ( Only for Females) (After 14 years edu),Female,Fall 2022,Early,1,23.43013698630137,3.66,0,85,50731,NA,"Merit Basis (30),Merit Basis (40)"
+BS Home Economics (Food & Nutrition) Girls Block ( Only for Females) (After 14 years edu),Female,Fall 2023,Early,1,21.065573770491802,77,0,53,0,Businessman,NA
+BS Home Economics (Interior Design) - Girls Block (Only for Females),Female,Fall 2022,Early,1,19.295890410958904,62,0,30,0,Property Dealer,"Merit Basis (8),Merit Basis (15)"
+BS Interior Design,Female,Fall 2024,Early,1,19.524590163934427,53,0,83,0,Business,NA
+BS Interior Design,Female,Spring 2023,Early,1,21.09041095890411,70,0,28,0,Businessman,Merit Basis (25)
+BS International Relations,Female,Spring 2022,Late,1,19.693150684931506,53,0,80,0,clothshop,NA
+BS International Relations,Female,Spring 2023,Late,1,19.172602739726027,57,0,88,0,Farmer,NA
+BS International Relations (After 14 years edu),Female,Spring 2024,Early,1,24.41256830601093,2.44,0,27,50530,NA,"Financial Assitance (25),Merit Basis (15)"
+BS International Relations (After 14 years edu),Male,Fall 2022,Late,1,23.654794520547945,54,0,89,0,NA,Orphans (65)
+BS Islamic Studies,Female,Fall 2023,Late,1,23.292349726775956,46,0,53,0,Farmer,NA
+BS Islamic Studies,Female,Spring 2022,Early,1,20.69041095890411,81,0,97,0,Private Job,Merit Basis (45)
+BS Islamic Studies,Female,Spring 2022,Late,1,20.23835616438356,57,0,93,0,Worker,NA
+BS Islamic Studies,Female,Spring 2024,Early,1,19.852459016393443,70,0,5,29450,Driving,Merit Basis (25)
+BS Islamic Studies,Male,Fall 2022,Early,1,21.627397260273973,56,0,10,0,Farmer,NA
+BS Islamic Studies,Male,Fall 2023,Late,1,17.898630136986302,52,0,68,0,Businessman,NA
+BS Islamic Studies,Male,Fall 2024,Early,1,19.40821917808219,52,0,40,0,Business,NA
+BS Islamic Studies,Male,Spring 2022,Late,1,21.58082191780822,72,0,94,16410,NA,Merit Basis (30)
+BS Islamic Studies,Male,Spring 2023,Early,1,34.04383561643836,46,0,15,0,Property Dealer,NA
+BS Islamic Studies (After 14 years edu),Female,Fall 2022,Early,1,26.627397260273973,63,0,46,28035,Businessman,Kin ship (30)
+BS Islamic Studies (After 14 years edu),Female,Spring 2023,Early,1,24.205479452054796,66,0,21,0,Police,Merit Basis (25)
+BS Mass Communication and Media Studies,Female,Spring 2023,Early,1,25.317808219178083,59,0,73,0,Business Man,NA
+BS Mass Communication and Media Studies,Female,Spring 2023,Late,1,20.545205479452054,55,0,35,0,NA,NA
+BS Mass Communication and Media Studies,Female,Spring 2024,Early,1,21.19125683060109,47,0,50,0,Farmer,NA
+BS Mass Communication and Media Studies,Male,Spring 2023,Late,1,21.40821917808219,47,0,60,0,Bussiness,NA
+BS Mass Communication and Media Studies (After 14 years edu),Female,Fall 2021,Early,1,19.104109589041094,54,3.66,83,0,Labour,Learn While You Earn (50)
+BS Mass Communication and Media Studies (After 14 years edu),Female,Fall 2022,Late,1,23.684931506849313,60,0,97,0,Army Man,"Merit Basis (11),Merit Basis (15)"
+BS Mass Communication and Media Studies (After 14 years edu),Male,Fall 2023,Late,1,26.87123287671233,2.83,0,45,116230,Overseas,Merit Basis (25)
+BS Mathematics,Female,Fall 2021,Early,1,18.73972602739726,50,0,21,0,NA,NA
+BS Mathematics,Female,Fall 2021,Late,1,19.81095890410959,55,1.26,73,0,Businessman,NA
+BS Mathematics,Female,Fall 2022,Late,1,19.041095890410958,64,0,95,35800,Worker,"Allumni Siblings (30),Financial Assitance (25)"
+BS Mathematics,Male,Fall 2022,Early,1,24.027397260273972,52,0,11,40572,Teacher,Kin ship (30)
+BS Mathematics,Male,Fall 2023,Late,1,17.783561643835615,51,0,91,0,Farmer,NA
+BS Mathematics (After 14 years edu),Female,Fall 2022,Early,1,27.813698630136987,2.98,0,13,56304,Shopkeeper,Merit Basis (15)
+BS Political Science,Female,Spring 2023,Early,1,19.71780821917808,46,0,88,0,Abroad,NA
+BS Political Science,Male,Fall 2023,Late,1,32.57260273972603,57,0,81,0,Landlord,NA
+BS Political Science,Male,Spring 2023,Late,1,18.263013698630136,52,0,58,0,NA,NA
+BS Political Science (After 14 years edu),Female,Fall 2023,Early,1,20.791780821917808,70,0,13,0,Businessman,Merit Basis (40)
+BS Political Science (After 14 years edu),Male,Fall 2023,Early,1,25.91780821917808,55,0,27,29503,Manager,Merit Basis (15)
+BS Political Science (After 14 years edu),Male,Fall 2024,Early,1,22.74863387978142,48,0,39,0,Self Business,NA
+BS Political Science (After 14 years edu),Male,Spring 2024,Early,1,22.349726775956285,51,0,29,32964,Business Man,Merit Basis (15)
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2021,Late,1,19.794520547945204,57,2.43,93,0,NA,"Financial Assitance (20),Learn While You Earn (30)"
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2022,Late,1,21.2,71,0,88,9000,Farmer,Merit Basis (25)
+BS Psychology - Girls Block ( Only for Females),Female,Fall 2023,Late,1,22.797260273972604,56,0,83,0,School Bus Conductor,Learn While You Earn (25)
+BS Psychology - Main Block,Female,Fall 2023,Late,1,19.517808219178082,70,0,65,0,Businessman,NA
+BS Psychology - Main Block,Male,Fall 2021,Late,1,20.216438356164385,57,1.85,51,0,Teacher,NA
+BS Psychology - Main Block,Male,Fall 2022,Late,1,18.279452054794522,63,0,80,0,Business,NA
+BS Psychology - Main Block (After 14 years edu),Female,Fall 2021,Late,1,20.832876712328765,56,2,NA,0,Business,NA
+BS Psychology - Main Block (After 14 years edu),Female,Spring 2022,Early,1,21.76164383561644,51,0,19,0,businessman,NA
+BS Social Media,Female,Fall 2022,Early,1,18.18904109589041,72,0,94,54070,Businessman,Kin ship (30)
+BS Social Media,Female,Fall 2024,Early,1,18.683060109289617,59,0,21,0,Labour,NA
+BS Social Media,Female,Spring 2024,Early,1,18.34426229508197,54,0,24,0,Busihnessman,NA
+BS Sociology - Main Block,Female,Spring 2022,Early,1,20.235616438356164,61,0,90,0,Owner Of Shop,NA
+BS Sociology - Main Block,Female,Spring 2024,Early,1,22.0327868852459,52,0,85,0,Deceased,NA
+BS Sociology - Main Block,Male,Fall 2021,Late,1,19.317808219178083,57,1.6,87,0,Farmer,NA
+BS Sociology - Main Block,Male,Fall 2022,Late,1,19.75068493150685,56,0,56,0,Labour,NA
+BS Sociology - Main Block,Male,Fall 2023,Late,1,18.726027397260275,66,0,70,17934,Farmer,Merit Basis (15)
+BS Sociology - Main Block (After 14 years edu),Female,Fall 2022,Late,1,19.934246575342467,65,0,86,0,NA,NA
+M Phil Applied Linguistics,Female,Fall 2021,Late,1,23.96164383561644,3.17,3.57,77,148692,NA,GIFT University Alumni (20)
+M Phil Applied Linguistics,Female,Fall 2022,Early,1,23.43013698630137,3.35,0,34,0,NA,Merit Basis (10)
+M Phil Applied Linguistics,Female,Spring 2022,Late,1,24.421917808219177,3.18,0,80,0,BusinessMan,GIFT University Alumni (20)
+M Phil Applied Linguistics,Male,Fall 2021,Early,1,20.638356164383563,2.77,2.8,88,53600,Retired Govt.Officer,GIFT University Alumni (20)
+M Phil Applied Linguistics,Male,Fall 2021,Late,1,23.646575342465752,3.34,3.2,89,0,Farmer,"Merit Basis (8),Merit Basis (10)"
+M Phil Applied Linguistics,Male,Fall 2022,Early,1,25.6,3.52,0,87,79324,Private Empliy,Merit Basis (10)
+M Phil Applied Linguistics,Male,Fall 2023,Early,1,22.502732240437158,3.59,0,93,118581,Labor,PR Discount (15)
+M Phil Economics,Male,Spring 2023,Early,1,23.386301369863013,2.81,0,78,36111,Dry Fruit Seller,GIFT University Alumni (25)
+M Phil Mass Communication and Media Studies,Female,Fall 2022,Late,1,24.235616438356164,3.9,0,23,38500,Tailor,GIFT University Alumni (25)
+MA English Language and Literature,Male,Spring 2022,Early,1,27.542465753424658,55,0,12,0,Govt Employ,NA
+MBA for Business Graduates (Morning),Female,Fall 2023,Early,1,22.434426229508198,3.87,0,76,90800,Businessman,"Merit Basis (15),Merit Basis (20)"
+MBA for Business Graduates (Morning),Female,Spring 2024,Early,1,23.112021857923498,3.16,0,37,0,Farmer,NA
+MCom,Male,Spring 2022,Early,1,26.715068493150685,51,0,90,39060,Retired,Merit Basis (60)
+MCom,Male,Spring 2022,Late,1,22.041095890410958,2.94,0,55,42880,Businessman,"Merit Basis (15),Merit Basis (20)"
+MPhil English,Female,Fall 2023,Late,1,26.327868852459016,3.09,0,76,0,Private Job,NA
+MPhil English,Male,Fall 2023,Late,1,28.098360655737704,3.44,0,93,0,Worker,NA
+MPhil English,Male,Fall 2024,Early,1,26.87431693989071,3.13,0,71,0,NA,NA
+MPhil Islamic Studies,Male,Fall 2023,Early,1,27.638356164383563,73,0,95,0,NA,NA
+MPhil Islamic Studies,Male,Fall 2023,Late,1,26.586301369863016,83,0,90,0,Printing Shop,NA
+MPhil Islamic Studies,Male,Fall 2024,Early,1,23.6775956284153,3.4,0,79,0,Business man,NA
+MPhil Management Sciences,Female,Fall 2021,Early,1,21.684931506849313,2.94,0.67,63,0,Businessman,Merit Basis (10)
+MPhil Management Sciences,Female,Fall 2022,Late,1,24.15890410958904,3.32,0,76,171462,Retired,"Merit Basis (8),Merit Basis (10)"
+MPhil Management Sciences,Female,Fall 2023,Late,1,31.980821917808218,3.66,0,68,9000,NA,"Merit Basis (5),Merit Basis (8),Merit Basis (10)"
+MPhil Management Sciences,Female,Spring 2022,Early,1,23.375342465753423,3.6,0,34,94243,NA,Merit Basis (10)
+MPhil Management Sciences,Female,Spring 2022,Late,1,22.18082191780822,2.94,0,NA,0,Businessman,NA
+MPhil Management Sciences,Female,Spring 2024,Early,1,25.316939890710383,2.84,0,30,0,Job Holder,NA
+MPhil Management Sciences,Male,Fall 2021,Early,1,23.361643835616437,2.74,0,94,0,Tailor,NA
+MPhil Management Sciences,Male,Fall 2022,Late,1,25.495890410958904,3.17,0,83,0,Business Man,NA
+MPhil Management Sciences,Male,Fall 2023,Late,1,32.349726775956285,3.11,0,54,99237,Tailor,GIFT University Alumni (25)
+MPhil Management Sciences,Male,Fall 2024,Early,1,33.106849315068494,3.1,0,15,0,NA,NA
+MPhil Psychology,Female,Fall 2021,Late,1,25.041095890410958,2.7,3.23,63,0,Business Man,NA
+MPhil Psychology,Male,Fall 2021,Early,1,30.21917808219178,3.31,3.9,53,60731,Private Job Retired,Merit Basis (10)
+MS Computer Science,Female,Fall 2021,Late,1,22.435616438356163,3.34,4,18,81772,Business Man,Kin ship (20)
+MS Computer Science,Female,Fall 2023,Early,1,24.786301369863015,2.63,0,21,0,Business man,NA
+MS Computer Science,Female,Fall 2024,Early,1,26.041095890410958,3.44,0,24,89835,NA,Merit Basis (15)
+MS Computer Science,Female,Spring 2022,Early,1,21.156164383561645,3.56,0,70,31414,Business,Merit Basis (10)
+MS Computer Science,Male,Fall 2024,Early,1,24.546448087431695,3.2,0,23,130252,Labour,Merit Basis (15)
+MS Computer Science,Male,Spring 2022,Early,1,34.24657534246575,2.28,0,53,0,Business,NA
+MSc Accounting and Finance,Male,Fall 2021,Early,1,23.947945205479453,2.68,2.68,91,102315,Lawyer,Kin ship (50)
+MSc Accounting and Finance,Male,Spring 2022,Early,1,21.161643835616438,52,0,35,0,Businessman,NA
+MSc Home Economics - Interior Design - Girls Block (Only for Females),Female,Fall 2021,Late,1,28.82191780821918,52,4,NA,0,NA,Financial Assitance (100)
+MSc Home Economics - Interior Design - Girls Block (Only for Females),Female,Spring 2022,Early,1,21.84109589041096,55,0,34,42240,Businessman,Merit Basis (20)
+Master of Mass Communication and Media Studies,Female,Fall 2021,Late,1,23.693150684931506,55,3.46,89,0,Worker,NA
+Master of Mass Communication and Media Studies,Male,Fall 2021,Early,1,24.126027397260273,46,0.4,63,0,NA,NA
