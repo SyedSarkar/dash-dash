@@ -40,7 +40,7 @@ def load_data():
     enrollment_df.columns = enrollment_df.columns.str.strip().str.capitalize()
     enrollment_df["Type"] = "Enrollment"
     enrollment_df.rename(columns={
-        "Session": "Joining_Semester",
+        "Joining_semester": "Joining_Semester",
         "Cgpa": "CGPA",
         "Attendance_percentage": "Attendance_Percentage",
         "Pending_fee": "Pending_Fee"
@@ -96,7 +96,6 @@ def load_data():
         "Dropout_date": "Dropout_Date",
         "Dropout_reason": "Dropout_Reason",
         "Dropout_remarks": "Dropout_Remarks",
-        "Session": "Joining_Semester"   # Only one mapping kept
     }, inplace=True)
 
     # Convert numeric safely
@@ -342,11 +341,13 @@ def display_dropout_by_session(df):
 
     if data_choice == "Compare":
         session_counts = df.groupby([join_col, "Is_Early_Dropout", "Type"]).size().reset_index(name="Count")
+        type_totals = session_counts.groupby("Type")["Count"].sum().reset_index(name="Type_Total")
+        session_counts = session_counts.merge(type_totals, on="Type")
+        session_counts["Percent"] = (session_counts["Count"] / session_counts["Type_Total"] * 100).round(1)
     else:
         session_counts = df.groupby([join_col, "Is_Early_Dropout"]).size().reset_index(name="Count")
-
-    total_session = session_counts["Count"].sum()
-    session_counts["Percent"] = (session_counts["Count"] / total_session * 100).round(1)
+        total_session = session_counts["Count"].sum()
+        session_counts["Percent"] = (session_counts["Count"] / total_session * 100).round(1)
 
     # Sort
     session_totals = session_counts.groupby(join_col)["Count"].sum().reset_index(name="Total").sort_values("Total", ascending=False)
@@ -384,68 +385,70 @@ def display_dropout_by_session(df):
     st.write("Top record sessions:")
     for _, row in top_sessions.iterrows():
         st.write(f"- {row[join_col]} ({row['Is_Early_Dropout']}): {row['Percent']}%")
-    st.write("Global Note: Early dropouts ~82% align with worldwide rates of 20-30% in first year (Gallup/MDPI).")
-
-def plot_enrollment(df, title_suffix=""):
-    if df.empty:
-        return
-
-    if data_choice == "Compare":
-        program_counts = df.groupby(["Program", "Type"]).size().reset_index(name="Count")
-        color_col = "Type"
+    if data_choice in ["Dropout", "Compare"]:
+        if data_choice == "Compare":
+            early_pct = (df[df["Type"] == "Dropout"]["Is_Early_Dropout"] == "Early").mean() * 100
+        else:
+            early_pct = (df["Is_Early_Dropout"] == "Early").mean() * 100
+        st.write(f"Local Note: Early dropouts ~{early_pct:.0f}% align with worldwide rates of 20-30% in first year (Gallup/MDPI).")
     else:
-        program_counts = df.groupby("Program").size().reset_index(name="Count")
-        color_col = "Program"
+        st.write("Global Note: Early dropouts ~20-30% in first year worldwide (Gallup/MDPI).")
 
-    program_counts["Percent"] = (program_counts["Count"] / program_counts["Count"].sum() * 100).round(1)
-    program_counts = program_counts.sort_values("Count", ascending=False)
-
-    fig = px.bar(
-        program_counts,
-        x="Count", y="Program",
-        text="Percent",
-        orientation="h",
-        color=color_col,
-        color_discrete_sequence=px.colors.qualitative.Safe
-    )
-    fig.update_layout(
-        title=f"Enrollments by Program{title_suffix}",
-        showlegend=True if data_choice == "Compare" else False
-    )
-    st.plotly_chart(fig, use_container_width=True)
-
-def plot_dropout(df, title_suffix=""):
+def display_program_summary(df, title_suffix=""):
     if df.empty:
         return
 
-    # Ensure Is_Early_Dropout exists in all cases
-    if "Is_Early_Dropout" not in df.columns:
+    # Determine mode based on data_choice
+    is_dropout_mode = data_choice in ["Dropout", "Compare"]
+
+    # Ensure Is_Early_Dropout for dropout mode
+    if is_dropout_mode and "Is_Early_Dropout" not in df.columns:
         df = df.copy()
         df["Is_Early_Dropout"] = "Not Available"
 
-    if data_choice == "Compare":
-        program_counts = df.groupby(["Program", "Is_Early_Dropout", "Type"]).size().reset_index(name="Count")
-        color_col = "Type"
+    # Grouping logic
+    if is_dropout_mode:
+        if data_choice == "Compare":
+            program_counts = df.groupby(["Program", "Is_Early_Dropout", "Type"]).size().reset_index(name="Count")
+            color_col = "Type"
+        else:
+            program_counts = df.groupby(["Program", "Is_Early_Dropout"]).size().reset_index(name="Count")
+            color_col = "Is_Early_Dropout"
+        # Relative percent per program
+        program_counts["Percent"] = (
+            program_counts["Count"] / program_counts.groupby("Program")["Count"].transform("sum") * 100
+        ).round(1)
+        x_col = "Percent"
+        title = f"Dropout Rates by Program{title_suffix}"
+        barmode = "stack"
     else:
-        program_counts = df.groupby(["Program", "Is_Early_Dropout"]).size().reset_index(name="Count")
-        color_col = "Is_Early_Dropout"
+        # Enrollment mode
+        if data_choice == "Compare":  # Though Compare typically uses dropout, but for consistency
+            program_counts = df.groupby(["Program", "Type"]).size().reset_index(name="Count")
+            color_col = "Type"
+        else:
+            program_counts = df.groupby("Program").size().reset_index(name="Count")
+            color_col = "Program"
+        # Overall percent
+        program_counts["Percent"] = (program_counts["Count"] / program_counts["Count"].sum() * 100).round(1)
+        x_col = "Count"
+        title = f"Enrollments by Program{title_suffix}"
+        barmode = "group"  # Or "stack" if preferred, but original was not stacked
 
-    program_counts["Percent"] = (
-        program_counts["Count"] / program_counts.groupby("Program")["Count"].transform("sum") * 100
-    ).round(1)
     program_counts = program_counts.sort_values("Count", ascending=False)
 
     fig = px.bar(
         program_counts,
-        x="Percent", y="Program",
-        color=color_col,
+        x=x_col, y="Program",
         text="Percent",
         orientation="h",
-        barmode="stack",
+        color=color_col,
+        barmode=barmode,
         color_discrete_sequence=px.colors.qualitative.Safe
     )
     fig.update_layout(
-        title=f"Dropout Rates by Program{title_suffix}"
+        title=title,
+        showlegend=True if data_choice == "Compare" or is_dropout_mode else False
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -687,16 +690,16 @@ def display_mixed_methods_analysis(df, summary=None, financial=None, multidim=No
 
     # Updated mapping with latest 2025 research
     mapping = {
-        "Financial Issues": "Top global (MDPI/Emmason 2024 ~50%; Gallup 54% stress; Pakistan: World Bank economic/floods)",
-        "Marriage/Family": "Regional (Nepjol marriage; journals.irapa cultural norms)",
-        "Migration/Abroad": "Intl/emigration (ERIC/arXiv aspirations; Nepal Nepjol; Reddit visa-waiting)",
-        "Academic Struggle": "Unpreparedness (PMC/web:5 demands ~30%; South Korea journals.sagepub)",
-        "Lack of Motivation": "Disengagement (Gallup false expectations; ijip.in lack discipline)",
-        "Choice of Different Program": "Poor fit (PMC/Polo; labmanager.com diverse reasons; tandfonline inequality)",
-        "Transport": "Challenges (web:1 Pakistan transport/harassment; Nepal Nepjol)",
-        "Health": "Mental/physical (BMC/Gallup 43%; frontiersin front stress)",
-        "Communication Gap": "Support gaps (Higher Ed alerts; che.de early measures)",
-        "UMC/DC": "Violations (Aligned academic; limited, iated.org factors)"
+        "Financial Issues": "Top global (EssayShark 2025 ~30%; CreatrixCampus 2025 financial burdens; Gallup/Forbes 2025 stress-linked ~54%); Pakistan: Khuddi.global 2025 poverty main driver; Thebrilliantbrains 2025 affordability crisis; ResearchGate 2025 unaffordable fees in BS programs",
+        "Marriage/Family": "Regional/Global (Wooclap 2025 personal/family issues ~32%; Thediplomat 2025 early marriage/cultural restrictions in Pakistan; Taylor&Francis 2025 socioeconomic/cultural factors)",
+        "Migration/Abroad": "Intl/emigration (Thebrilliantbrains 2025 brain drain in Pakistan; ERIC/arXiv 2025 aspirations; NPR 2025 demographic shifts impacting enrollment)",
+        "Academic Struggle": "Unpreparedness (MDPI 2025 academic difficulty ~18%, poor performance ~12%; QuadC 2025 struggling coursework/lack of support; ResearchGate 2025 course complexity/volume in Pakistan BS programs)",
+        "Lack of Motivation": "Disengagement (EssayShark 2025 motivation issues ~24%; CreatrixCampus 2025 lack of engagement; ITB-Academic-Tests 2025 individual/social factors)",
+        "Choice of Different Program": "Poor fit (MDPI 2025 dissatisfaction; QuadC 2025 inadequate support/mismatch; Tandfonline 2025 inequality; Thebrilliantbrains 2025 curriculum reform needs in Pakistan)",
+        "Transport": "Challenges (Irapa.org 2025 non-availability of facilities in Pakistan (school-level, extensible to higher ed); CreatrixCampus 2025 external factors like economic shifts)",
+        "Health": "Mental/physical (EssayShark 2025 mental health ~18%; CreatrixCampus 2025 mental health issues; Thediplomat 2025 restrictions impacting well-being in Pakistan)",
+        "Communication Gap": "Support gaps (CreatrixCampus 2025 inadequate support systems; QuadC 2025 lack of tutoring/services; ResearchGate 2025 unfavorable teacher attitudes in Pakistan)",
+        "UMC/DC": "Violations (Aligned academic; MDPI 2025 poor performance links; ResearchGate 2025 inadequate resources/attitudes in Pakistan; limited 2025-specific, but ties to broader struggles)"
     }
 
     # Build matrix
@@ -754,10 +757,8 @@ if not filtered.empty:
     
     with tab2:
         # Overall by Program
-        if data_choice in ["Dropout", "Compare"]:
-            plot_dropout(filtered)
-        else:
-            plot_enrollment(filtered)
+        # Improvement: Replaced if-else with single call to combined function
+        display_program_summary(filtered)
         
         # Category-specific (unchanged, but filtered handles Compare)
         st.subheader("Category-Specific Program Records")
@@ -788,10 +789,8 @@ if not filtered.empty:
             
             if not category_filtered.empty:
                 st.markdown("## Overall by Program")
-                if data_choice in ["Dropout", "Compare"]:
-                    plot_dropout(category_filtered, f" - {selected_category}")
-                else:
-                    plot_enrollment(category_filtered, f" - {selected_category}")
+                # Improvement: Replaced if-else with single call to combined function
+                display_program_summary(category_filtered, f" - {selected_category}")
 
                 st.markdown("## Trends by Program and Session")
                 display_program_trends(category_filtered, f" - {selected_category}")
@@ -808,4 +807,3 @@ if not filtered.empty:
 
 else:
     st.warning("No data available. Please adjust filters.")
-
