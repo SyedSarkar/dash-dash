@@ -30,6 +30,10 @@ required_cols = ["program", "gender", "cgpa", "attendance_percentage", "pending_
 
 @st.cache_data
 def load_data(enrollment_file, dropout_file):
+    import re
+    import numpy as np
+    import pandas as pd
+
     # Load enrollment
     enrollment_df = pd.read_csv(enrollment_file)
     dropout_df = pd.read_csv(dropout_file)
@@ -67,25 +71,11 @@ def load_data(enrollment_file, dropout_file):
     enrollment_df = enrollment_df.fillna("N/A")
     dropout_df = dropout_df.fillna("N/A")
 
-    # Ensure correct dtype for .str operations
+    # Ensure correct dtype for string ops
     for col in ["joining_semester", "dropout_semester"]:
         if col in dropout_df.columns:
             dropout_df[col] = dropout_df[col].astype(str)
 
-    # Derive early/late dropout
-    dropout_df["Is_Early_Dropout"] = np.where(
-        dropout_df["dropout_semester"].str.contains("Spring", na=False) &
-        dropout_df["joining_semester"].str.contains("Fall", na=False),
-        "Early", "Late"
-    )
-    
-    # Derived fields
-    if "dropout_semester" in dropout_df.columns and "joining_semester" in dropout_df.columns:
-        dropout_df["is_early_dropout"] = np.where(
-            dropout_df["dropout_semester"].str.contains("spring", case=False, na=False)
-            & dropout_df["joining_semester"].str.contains("fall", case=False, na=False),
-            "early", "late"
-        )
     # --- Normalize column names between files ---
     for df in [enrollment_df, dropout_df]:
         # Ensure consistent 'joining_semester' column
@@ -94,8 +84,40 @@ def load_data(enrollment_file, dropout_file):
                 df["joining_semester"] = df["session"]
             else:
                 df["joining_semester"] = "Unknown"
-                
-    # Generate summary tables dynamically (so no need for external CSVs)
+
+    # --- Define helper functions for early dropout logic ---
+    def parse_semester(sem):
+        """Extracts ('spring' or 'fall', year as int) from a semester string like 'Fall 2023'."""
+        if not isinstance(sem, str):
+            return None, None
+        match = re.search(r'(spring|fall)\s*(\d{4})', sem.lower())
+        if match:
+            return match.group(1), int(match.group(2))
+        return None, None
+
+    def classify_early_dropout(row):
+        join_sem, join_year = parse_semester(row.get("joining_semester"))
+        drop_sem, drop_year = parse_semester(row.get("dropout_semester"))
+
+        if join_sem is None or drop_sem is None or join_year is None or drop_year is None:
+            return "Unknown"
+
+        year_diff = drop_year - join_year
+
+        # Early dropout = within 1 academic year
+        if year_diff == 0:
+            return "Early"
+        elif year_diff == 1:
+            if join_sem == "fall" and drop_sem in ["spring", "fall"]:
+                return "Early"
+            if join_sem == "spring" and drop_sem == "spring":
+                return "Early"
+        return "Late"
+
+    # --- Apply the early/late dropout logic ---
+    dropout_df["is_early_dropout"] = dropout_df.apply(classify_early_dropout, axis=1)
+
+    # --- Generate summary tables dynamically ---
     # Safely pick the best available pending fee column
     pending_col = None
     for cand in ["pending_fee", "pending_amt", "pending_amt_first_semester", "outstanding_dues"]:
@@ -103,20 +125,13 @@ def load_data(enrollment_file, dropout_file):
             pending_col = cand
             break
 
-    # Build the aggregation dictionary dynamically
-    agg_dict = {
-        "roll_no": ("roll_no", "count"),
-        "cgpa": ("cgpa", "mean")
-    }
     # Ensure numeric columns (extended)
     numeric_cols = ["cgpa", "pending_fee", "attendance_percentage", "discount_provided_percentage"]
     for col in numeric_cols:
         if col in dropout_df.columns:
             dropout_df[col] = pd.to_numeric(dropout_df[col], errors="coerce")
-            
-    if pending_col:
-        agg_dict["avg_pending_fee"] = (pending_col, "mean")
 
+    # Build summary tables
     summary_by_group = dropout_df.groupby("program", dropna=False).agg(
         total_dropouts=("roll_no", "count"),
         avg_cgpa=("cgpa", "mean"),
@@ -133,9 +148,7 @@ def load_data(enrollment_file, dropout_file):
         avg_cgpa=("cgpa", "mean"),
     ).reset_index()
 
-    
     return enrollment_df, dropout_df, summary_by_group, financial_summary, multi_dim_summary
-
 
 # --- Sidebar Uploads ---
 st.sidebar.header("📂 Upload Data Files")
@@ -216,53 +229,72 @@ if program_filter and "program" in filtered.columns:
 if gender_filter and "gender" in filtered.columns:
     filtered = filtered[filtered["gender"].isin(gender_filter)]
 
-# Dropout-specific filters (apply only if relevant)
+# --- Dropout-specific logic ---
 if data_choice == "Dropout":
-    if "Is_Early_Dropout" in filtered.columns and dropout_filter != "All":
-        filtered = filtered[filtered["Is_Early_Dropout"] == dropout_filter]
+    # Early/Late dropout filter
+    if "is_early_dropout" in filtered.columns and dropout_filter != "All":
+        filtered = filtered[filtered["is_early_dropout"].str.lower() == dropout_filter.lower()]
+        
+    # Dropout semester filter
     if dropout_sem_filter and "dropout_semester" in filtered.columns:
         filtered = filtered[filtered["dropout_semester"].isin(dropout_sem_filter)]
+        
+    # Dropout reason filter
     if reason_filter and "dropout_reason" in filtered.columns:
         filtered = filtered[filtered["dropout_reason"].isin(reason_filter)]
+        
+    # Joining semester filter — apply as well (important!)
+    if joining_sem_filter and "joining_semester" in filtered.columns:
+        filtered = filtered[filtered["joining_semester"].isin(joining_sem_filter)]
+
+# --- Enrollment logic ---
+elif data_choice == "Enrollment":
+    if joining_sem_filter and "joining_semester" in filtered.columns:
+        filtered = filtered[filtered["joining_semester"].isin(joining_sem_filter)]
+
+# --- Compare mode logic ---
 elif data_choice == "Compare":
-    # For Compare, filter each separately then concat
-    filtered_enroll = enrollment_df[common_cols].copy()
-    filtered_drop = dropout_df[common_cols].copy()
-    
-    # Apply common filters
+    filtered_enroll = enrollment_df.copy()
+    filtered_drop = dropout_df.copy()
+
+    # Apply program/gender filters
     for f_df in [filtered_enroll, filtered_drop]:
         if program_filter and "program" in f_df.columns:
             f_df = f_df[f_df["program"].isin(program_filter)]
         if gender_filter and "gender" in f_df.columns:
             f_df = f_df[f_df["gender"].isin(gender_filter)]
-        if joining_sem_filter and "joining_semester" in f_df.columns:
-            f_df = f_df[f_df["joining_semester"].isin(joining_sem_filter)]
-    
-    # Dropout-specific for drop only
-    if "Is_Early_Dropout" in filtered_drop.columns and dropout_filter != "All":
-        filtered_drop = filtered_drop[filtered_drop["Is_Early_Dropout"] == dropout_filter]
+
+    # Apply session filters specifically
+    if joining_sem_filter:
+        if "joining_semester" in filtered_enroll.columns:
+            filtered_enroll = filtered_enroll[filtered_enroll["joining_semester"].isin(joining_sem_filter)]
+        if "joining_semester" in filtered_drop.columns:
+            filtered_drop = filtered_drop[filtered_drop["joining_semester"].isin(joining_sem_filter)]
     if dropout_sem_filter and "dropout_semester" in filtered_drop.columns:
         filtered_drop = filtered_drop[filtered_drop["dropout_semester"].isin(dropout_sem_filter)]
+
+    # Dropout-specific filters
+    if "is_early_dropout" in filtered_drop.columns and dropout_filter != "All":
+        filtered_drop = filtered_drop[filtered_drop["is_early_dropout"].str.lower() == dropout_filter.lower()]
     if reason_filter and "dropout_reason" in filtered_drop.columns:
         filtered_drop = filtered_drop[filtered_drop["dropout_reason"].isin(reason_filter)]
-    
+
     filtered = pd.concat([filtered_enroll, filtered_drop], ignore_index=True)
 
-# Joining semester filter (for all)
-if joining_sem_filter and "joining_semester" in filtered.columns:
-    filtered = filtered[filtered["joining_semester"].isin(joining_sem_filter)]
-
-# Numeric filters (apply to all if columns exist)
+# --- Numeric filters ---
 if "cgpa" in filtered.columns:
     filtered = filtered[filtered["cgpa"].between(gpa_min, gpa_max, inclusive="both")]
+
 if "attendance_percentage" in filtered.columns:
     filtered["attendance_percentage"] = pd.to_numeric(filtered["attendance_percentage"], errors="coerce")
     filtered = filtered[filtered["attendance_percentage"].between(attendance_min, attendance_max, inclusive="both")]
 
-# --- Apply Top Filter ---
+# --- Top N programs ---
 if "program" in filtered.columns and top_filter != "All":
-    program_counts = filtered["program"].value_counts().head(int(top_filter.split()[1]))
+    top_n = int(top_filter.split()[1])
+    program_counts = filtered["program"].value_counts().head(top_n)
     filtered = filtered[filtered["program"].isin(program_counts.index)]
+
 
 # Remove duplicates (moved earlier for efficiency)
 filtered = filtered.loc[:, ~filtered.columns.duplicated()].drop_duplicates().copy()
@@ -333,70 +365,87 @@ def display_dropout_by_session(df):
     if df.empty:
         return
 
-    # Ensure Is_Early_Dropout (add for enrollment as N/A if Compare)
-    if "Is_Early_Dropout" not in df.columns:
+    # --- Normalize column names ---
+    if "is_early_dropout" not in df.columns:
         df = df.copy()
-        df["Is_Early_Dropout"] = "N/A"
+        df["is_early_dropout"] = "N/A"
 
     join_col = "joining_semester"
+    drop_col = "dropout_semester"
 
     if join_col not in df.columns:
-        return  # Skip if no session col
+        return  # skip if no semester info
 
-    if data_choice == "Compare":
-        session_counts = df.groupby([join_col, "Is_Early_Dropout", "type"]).size().reset_index(name="count")
-        type_totals = session_counts.groupby("type")["count"].sum().reset_index(name="type_Total")
-        session_counts = session_counts.merge(type_totals, on="type")
-        session_counts["percent"] = (session_counts["count"] / session_counts["type_Total"] * 100).round(1)
+    # --- Detect what to plot on x-axis ---
+    # If a joining_semester filter is applied, plot dropout_semesters for those students
+    if len(joining_sem_filter) > 0 and drop_col in df.columns and data_choice in ["Dropout", "Compare"]:
+        group_col = drop_col
+        chart_title = f"Dropout Semesters for Students Who Joined in {', '.join(joining_sem_filter)}"
     else:
-        session_counts = df.groupby([join_col, "Is_Early_Dropout"]).size().reset_index(name="count")
-        total_session = session_counts["count"].sum()
-        session_counts["percent"] = (session_counts["count"] / total_session * 100).round(1)
+        group_col = join_col
+        chart_title = "Records by Joining Session (Descending Order)"
 
-    # Sort
-    session_totals = session_counts.groupby(join_col)["count"].sum().reset_index(name="Total").sort_values("Total", ascending=False)
-    session_counts = session_counts.merge(session_totals, on=join_col).sort_values(["Total", join_col], ascending=[False, True])
+    # --- Compute grouped counts ---
+    group_fields = [group_col, "is_early_dropout"]
+    if data_choice == "Compare" and "type" in df.columns:
+        group_fields.append("type")
 
-    # Plot (add facet for Compare)
+    session_counts = df.groupby(group_fields, dropna=False).size().reset_index(name="count")
+    total_session = session_counts["count"].sum()
+    session_counts["percent"] = (session_counts["count"] / total_session * 100).round(1)
+
+    # --- Sort sessions by total descending ---
+    session_totals = session_counts.groupby(group_col)["count"].sum().reset_index(name="Total")
+    session_totals = session_totals.sort_values("Total", ascending=False)
+    session_counts = session_counts.merge(session_totals, on=group_col).sort_values(["Total", group_col], ascending=[False, True])
+
+    # --- Build plot ---
     session_plot = px.bar(
         session_counts,
-        x=join_col, y="count",
-        color="Is_Early_Dropout", barmode="stack",
+        x=group_col,
+        y="count",
+        color="is_early_dropout",
+        barmode="stack",
         text=session_counts["percent"].astype(str) + "%",
         hover_data={"count": True, "percent": True},
         color_discrete_sequence=px.colors.qualitative.Safe,
-        category_orders={join_col: session_totals[join_col].tolist()},
-        facet_col="type" if data_choice == "Compare" else None  # Key addition
+        category_orders={group_col: session_totals[group_col].tolist()},
+        facet_col="type" if data_choice == "Compare" else None
     )
+
     session_plot.update_traces(
         hovertemplate="<b>%{x}</b><br>count: %{y}<br>percent: %{customdata[0]}%<extra></extra>",
         customdata=session_counts[["percent"]].values
     )
     session_plot.update_layout(
-        title="Records by Joining Session (Descending Order)", 
-        xaxis_title="Session", 
-        yaxis_title="count",
+        title=chart_title,
+        xaxis_title="Session",
+        yaxis_title="Count",
         hovermode="x unified"
     )
     session_plot.update_xaxes(type="category")
     st.plotly_chart(session_plot, use_container_width=True, config={'responsive': True, 'scrollZoom': True})
 
-    # Key insights (adapted for Compare)
+    # --- Key insights section ---
     st.markdown("### 📌 Key Insights")
+
     if data_choice == "Compare":
         st.write("Comparison: Enrollment vs Dropout trends across sessions.")
+
     top_sessions = session_counts.nlargest(3, "count")
     st.write("Top record sessions:")
     for _, row in top_sessions.iterrows():
-        st.write(f"- {row[join_col]} ({row['Is_Early_Dropout']}): {row['percent']}%")
+        st.write(f"- {row[group_col]} ({row['is_early_dropout']}): {row['percent']}%")
+
     if data_choice in ["Dropout", "Compare"]:
         if data_choice == "Compare":
-            early_pct = (df[df["type"] == "Dropout"]["Is_Early_Dropout"] == "Early").mean() * 100
+            early_pct = (df[df["type"] == "Dropout"]["is_early_dropout"] == "Early").mean() * 100
         else:
-            early_pct = (df["Is_Early_Dropout"] == "Early").mean() * 100
-        st.write(f"Local Note: Early dropouts ~{early_pct:.0f}% align with worldwide rates of 20-30% in first year (Gallup/MDPI).")
+            early_pct = (df["is_early_dropout"] == "Early").mean() * 100
+        st.write(f"Local Note: Early dropouts ~{early_pct:.0f}% align with worldwide rates of 20–30% in first year (Gallup/MDPI).")
     else:
-        st.write("Global Note: Early dropouts ~20-30% in first year worldwide (Gallup/MDPI).")
+        st.write("Global Note: Early dropouts ~20–30% in first year worldwide (Gallup/MDPI).")
+
 
 def display_program_summary(df, title_suffix=""):
     if df.empty:
@@ -405,19 +454,19 @@ def display_program_summary(df, title_suffix=""):
     # Determine mode based on data_choice
     is_dropout_mode = data_choice in ["Dropout", "Compare"]
 
-    # Ensure Is_Early_Dropout for dropout mode
-    if is_dropout_mode and "Is_Early_Dropout" not in df.columns:
+    # Ensure is_early_dropout for dropout mode
+    if is_dropout_mode and "is_early_dropout" not in df.columns:
         df = df.copy()
-        df["Is_Early_Dropout"] = "Not Available"
+        df["is_early_dropout"] = "Not Available"
 
     # Grouping logic
     if is_dropout_mode:
         if data_choice == "Compare":
-            program_counts = df.groupby(["program", "Is_Early_Dropout", "type"]).size().reset_index(name="count")
+            program_counts = df.groupby(["program", "is_early_dropout", "type"]).size().reset_index(name="count")
             color_col = "type"
         else:
-            program_counts = df.groupby(["program", "Is_Early_Dropout"]).size().reset_index(name="count")
-            color_col = "Is_Early_Dropout"
+            program_counts = df.groupby(["program", "is_early_dropout"]).size().reset_index(name="count")
+            color_col = "is_early_dropout"
         # Relative percent per program
         program_counts["percent"] = (
             program_counts["count"] / program_counts.groupby("program")["count"].transform("sum") * 100
@@ -461,15 +510,15 @@ def display_program_trends(df, title_suffix=""):
         st.info("⚠️ No data available for this selection.")
         return
 
-    if "Is_Early_Dropout" in df.columns:
+    if "is_early_dropout" in df.columns:
         # Dropout or Compare mode
         if data_choice == "Compare":
-            program_counts = df.groupby(["joining_semester", "program", "Is_Early_Dropout", "type"]).size().reset_index(name="count")
-            color_col = "Is_Early_Dropout"
+            program_counts = df.groupby(["joining_semester", "program", "is_early_dropout", "type"]).size().reset_index(name="count")
+            color_col = "is_early_dropout"
             facet_extra = "type"
         else:
-            program_counts = df.groupby(["joining_semester", "program", "Is_Early_Dropout"]).size().reset_index(name="count")
-            color_col = "Is_Early_Dropout"
+            program_counts = df.groupby(["joining_semester", "program", "is_early_dropout"]).size().reset_index(name="count")
+            color_col = "is_early_dropout"
             facet_extra = None
         title = f"Dropouts by program and Session{title_suffix}"
     else:
@@ -623,10 +672,10 @@ def display_financial_patterns(df):
         st.info("⚠️ No financial data available in this dataset.")
         return
 
-    if "Is_Early_Dropout" in df.columns:
+    if "is_early_dropout" in df.columns:
         # Dropout or Compare
         fin_plot = px.box(
-            df, x="Is_Early_Dropout", y="pending_amt", color="Is_Early_Dropout",
+            df, x="is_early_dropout", y="pending_amt", color="is_early_dropout",
             points="all",
             notched=True,
             color_discrete_map={"Early": "#63a7d8", "Late": "#8f3939"},
@@ -640,8 +689,8 @@ def display_financial_patterns(df):
 
         # Insights
         if data_choice != "Compare":
-            avg_due_early = df.loc[df["Is_Early_Dropout"]=="Early", "pending_amt"].mean()
-            avg_dues_late = df.loc[df["Is_Early_Dropout"]=="Late", "pending_amt"].mean()
+            avg_due_early = df.loc[df["is_early_dropout"]=="Early", "pending_amt"].mean()
+            avg_dues_late = df.loc[df["is_early_dropout"]=="Late", "pending_amt"].mean()
             st.markdown("### 📌 Key Insights")
             st.write(f"- Late higher dues ({avg_dues_late:,.0f} vs. {avg_due_early:,.0f} PKR). Matches Pakistan economic/marriage (World Bank/Nepjol) and global hardship (PMC/arXiv).")
         else:
