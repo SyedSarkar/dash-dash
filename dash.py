@@ -625,7 +625,7 @@ def display_pending_by_umc_points(df):
     for _, row in top.iterrows():
         st.write(f"- {row['UMC_DC_Points']}: {row['Avg_pending_fee']:,.0f} PKR")
         
-def display_additional_charts(df):
+def display_gender_chart(df):
     if df.empty:
         return
     
@@ -643,18 +643,6 @@ def display_additional_charts(df):
     )
     gender_pie.update_layout(title="gender Distribution")
     st.plotly_chart(gender_pie, use_container_width=True, config={'responsive': True})
-
-    # Reasons Distribution (if available, conditional)
-    if data_choice != "Enrollment" and "dropout_reason" in df.columns and not df["dropout_reason"].isna().all():
-        st.subheader("Dropout Reasons Distribution")
-        reason_counts = df["dropout_reason"].value_counts().reset_index(name="count")
-        reason_pie = px.pie(reason_counts, values="count", names="dropout_reason", color_discrete_sequence=px.colors.qualitative.Safe)
-        reason_pie.update_traces(
-            hovertemplate="<b>%{label}</b><br>count: %{value}<br>percent: %{percent}<extra></extra>",
-            hole=0.4
-        )
-        reason_pie.update_layout(title="Reasons Distribution")
-        st.plotly_chart(reason_pie, use_container_width=True, config={'responsive': True})
 
 def display_executive_summary():
     st.header("📊 Executive Summary for Stakeholders")
@@ -717,17 +705,56 @@ def display_financial_patterns(df):
 def display_dropout_reasons(df):
     if data_choice == "Enrollment" or "dropout_reason" not in df.columns or df["dropout_reason"].isna().all():
         return
-    if data_choice == "Compare":
-        df = df[df["type"] == "Dropout"]  # Restrict to Dropout
+
+    if data_choice == "Compare" and "type" in df.columns:
+        df = df[df["type"].str.lower() == "dropout"]
 
     st.subheader("Dropout Reasons (Data + Global Alignments)")
-    reason_counts = df["dropout_reason"].value_counts().reset_index(name="count")
-    reason_pie = px.pie(reason_counts, values="count", names="dropout_reason", color_discrete_sequence=px.colors.qualitative.Safe)
+
+    # --- Aggregate ---
+    reason_counts = df["dropout_reason"].value_counts(dropna=False).reset_index()
+    reason_counts.columns = ["dropout_reason", "count"]
+    reason_counts["count"] = pd.to_numeric(reason_counts["count"], errors="coerce").fillna(0)
+
+    # --- Add dynamic reason filter ---
+    all_reasons = reason_counts["dropout_reason"].dropna().unique().tolist()
+    selected_reasons = st.multiselect("Select Reasons to Display", all_reasons, default=all_reasons)
+
+    reason_counts = reason_counts[reason_counts["dropout_reason"].isin(selected_reasons)]
+
+    total = reason_counts["count"].sum()
+    if total == 0:
+        st.warning("No valid dropout reason data found.")
+        return
+
+    reason_counts["percent"] = (reason_counts["count"].astype(float) / total * 100).round(1)
+
+    # --- Pie Chart ---
+    reason_pie = px.pie(
+        reason_counts,
+        values="count",
+        names="dropout_reason",
+        color_discrete_sequence=px.colors.qualitative.Safe,
+    )
     reason_pie.update_traces(
-        hovertemplate="<b>%{label}</b><br>count: %{value}<br>percent: %{percent}<br>Global: Unpreparedness (ERIC 2024); Mental health (BMC/Gallup 43%); Pakistan: Marriage/economic (World Bank/Nepjol)<extra></extra>"
+        textinfo="percent+label",
+        hovertemplate="<b>%{label}</b><br>Count: %{value}<br>Percent: %{percent}<extra></extra>",
     )
     st.plotly_chart(reason_pie, use_container_width=True)
 
+    # --- Dynamic Key Insights ---
+    st.markdown("### 📊 Key Insights: Dropout Reasons Breakdown")
+    st.write(f"Total Dropouts (selected categories): **{int(total):,}**")
+
+    for _, row in reason_counts.iterrows():
+        st.write(f"- **{row['dropout_reason']}**: {int(row['count']):,} students ({row['percent']}%)")
+
+    st.info(
+        "🌍 *Global Patterns:* Academic unpreparedness and mental health challenges account for ~40–45% "
+        "of early dropouts (Gallup/BMC 2024). In South Asia, socio-economic and family factors "
+        "remain major contributors (World Bank, Nepjol)."
+    )
+    
 def display_mixed_methods_analysis(df, summary=None, financial=None, multidim=None):
     if data_choice == "Enrollment" or "dropout_reason" not in df.columns:
         st.warning("No 'dropout_reason' column found in dataset.")
@@ -805,7 +832,7 @@ if not filtered.empty:
         display_kpis(filtered)
         display_dropout_by_session(filtered)
         display_dropout_reasons(filtered)
-        display_additional_charts(filtered)
+        display_gender_chart(filtered)
         display_executive_summary()
     
     with tab2:
